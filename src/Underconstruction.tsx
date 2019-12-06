@@ -1,12 +1,15 @@
-import React from 'react';
+import * as React from 'react';
 import logo from './Images/PurpleRoseMUA_CapeTown_Makeup_Artist.jpg';
 import logoInstagram from './Images/instagram.jpg';
-import './App.css';
+import Main from './Main';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
+export interface IAppProps {
+}
+
+export default class App extends React.Component<IAppProps> {
+  public render() {
+    return (
+    <Main>
         <img src={logo} className="App-logo" alt="logo" />
         <p>This site is under construction - Coming Soon!!!</p>
         <a
@@ -17,9 +20,7 @@ function App() {
         >
           <img src={logoInstagram} className="instagram-logo" alt="instagram" />
         </a>
-      </header>
-    </div>
-  );
+      </Main>
+    );
+  }
 }
-
-export default App;
