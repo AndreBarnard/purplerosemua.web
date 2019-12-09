@@ -18,7 +18,6 @@ export default class App extends React.Component<IAppProps> {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={logoInstagram} className="instagram-logo" alt="instagram" />
         </a>
       </Main>
     );
