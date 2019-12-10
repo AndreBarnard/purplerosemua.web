@@ -10,7 +10,9 @@ export default class App extends React.Component<IAppProps> {
       <div>
         <Header />
         <article>
+          <section>
             {this.props.children}
+          </section>            
         </article>
         <Footer/>
       </div>

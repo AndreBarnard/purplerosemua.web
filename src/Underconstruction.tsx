@@ -1,6 +1,5 @@
 import * as React from 'react';
 import logo from './Images/PurpleRoseMUA_CapeTown_Makeup_Artist.jpg';
-import logoInstagram from './Images/instagram.jpg';
 import Main from './Main';
 
 export interface IAppProps {
