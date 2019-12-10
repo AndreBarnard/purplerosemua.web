@@ -42,7 +42,7 @@ export default class App extends React.Component<IAppProps> {
 	<div className="footer-right">
 		<p className="footer-company-about">
 			<span>About the company</span>
-			Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+			Purple Rose MUA was founded in 2012, we are a Cape Town, based professional makeup artistry. Our service includes bridal, high fashion, special events, photoshoots, stage/theater, fx makeup and many more. We take great pride in our work ethic and professionalism to deliver a unique experience for every client.
 		</p>
 		<div className="footer-icons">
 			<a href="https://www.facebook.com/purplerosemua/" target="_blank"><FontAwesomeIcon icon={faFacebook} /></a>
