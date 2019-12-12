@@ -9,16 +9,16 @@ export default class App extends React.Component<IAppProps> {
   public render() {
     return (
     <Main>
+        <br />
+        <br />
         <img src={logo} className="App-logo" alt="logo" />
+        <br />
         <p>This site is under construction - Coming Soon!!!</p>
-        <a
-          className="App-link"
-          href="https://www.instagram.com/purplerosemuacpt/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        </a>
-      </Main>
+        <br />
+        <br />
+        <br />
+        <br />
+    </Main>
     );
   }
 }
