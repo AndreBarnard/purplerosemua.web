@@ -13,11 +13,10 @@ export default class App extends React.Component<IAppProps> {
           <div className="logo"><img src={logo} className="header-logo" alt="Purple Rose MUA" /></div>
           <p className="nav-slogan">Professional Makeup Artist</p>
             <ul> 
+              <li><a href="#">Home</a></li>
               <li><a href="#">About</a></li>
-              <li><a href="#">News</a></li>
-              <li><a href="#">Learn More</a></li>
+              <li><a href="#">Portfolio</a></li>
               <li><a href="#">Contact</a></li>
-              <li className="donate"><a href="#">Donate</a></li>
             </ul>
           </nav>
       </header>

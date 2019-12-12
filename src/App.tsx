@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.scss';
-import Underconstraction from './Underconstruction';
+import Home from './Home';
 function App() {
   return (
     <div className="App">
-      <Underconstraction/>
+      <Home/>
     </div>
   );
 }
