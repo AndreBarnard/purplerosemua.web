@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.scss';
-import Home from './Home';
+import Home from './Brochure/Home';
+import './styles/_purplerosekernel.scss';
 function App() {
   return (
     <div className="App">

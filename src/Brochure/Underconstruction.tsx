@@ -1,6 +1,6 @@
 import * as React from 'react';
-import logo from './Images/PurpleRoseMUA_CapeTown_Makeup_Artist.jpg';
-import Main from './Main';
+import logo from '../Images/PurpleRoseMUA_CapeTown_Makeup_Artist.jpg';
+import Main from '../Templetes/Main';
 
 export interface IAppProps {
 }

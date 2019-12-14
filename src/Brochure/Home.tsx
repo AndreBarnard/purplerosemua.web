@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Main from './Main';
+import Main from '../Templetes/Main';
 import ImageCarousel from './ImageCarousel';
 
 export interface IAppProps {
