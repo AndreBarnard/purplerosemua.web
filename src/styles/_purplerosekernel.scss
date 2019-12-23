@@ -1,5 +1,5 @@
 #pr-wrapper{
-    padding: 20px 20px 0;
+    padding: 20px 20px 20px;
     background: #fff;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -15,4 +15,8 @@
     -moz-border-radius: 5px;
     border-radius: 5px;
     border: 1px solid #cccbcb;
+}
+
+.col {
+    padding-bottom: 15px;
 }
