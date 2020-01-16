@@ -60,13 +60,13 @@ export default class App extends React.Component<IAppProps> {
                 </Switch>
               </Wrapper>          
             </div>
+          </div>        
+          <div className="row">
+            <div className="col col-lg-12">
+              <Footer/>
+            </div>          
           </div>
         </Router>
-        <div className="row">
-          <div className="col col-lg-12">
-            <Footer/>
-          </div>          
-        </div>
       </div>
     );
   }
