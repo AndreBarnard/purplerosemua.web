@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.scss';
-import Home from './Brochure/Home';
+import Main from './Brochure/Main';
 import './styles/_purplerosekernel.scss';
+
 function App() {
   return (
     <div className="App">
-      <Home/>
+      <Main/>
     </div>
   );
 }

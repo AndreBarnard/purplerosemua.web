@@ -1,6 +1,9 @@
 import * as React from 'react';
 import logo from '../Images/PurpleRoseMUA_CapeTown_Makeup_Artist.jpg';
-import '../styles/_header.scss'
+import '../styles/_header.scss';
+import {
+  Link,
+} from "react-router-dom";
 
 export interface IAppProps {
 }
@@ -13,10 +16,11 @@ export default class App extends React.Component<IAppProps> {
           <div className="logo"><img src={logo} className="header-logo" alt="Purple Rose MUA" /></div>
           <p className="nav-slogan">Professional Makeup Artist</p>
             <ul> 
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/about">About</Link></li>
+              <li><Link to="/portfolio">Portfolio</Link></li>
+              <li><Link to="/services">Services</Link></li>
+              <li><Link to="/contact">Contact</Link></li>
             </ul>
           </nav>
       </header>

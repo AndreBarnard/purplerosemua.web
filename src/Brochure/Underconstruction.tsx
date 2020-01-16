@@ -1,6 +1,5 @@
 import * as React from 'react';
 import logo from '../Images/PurpleRoseMUA_CapeTown_Makeup_Artist.jpg';
-import Main from '../Templetes/Main';
 
 export interface IAppProps {
 }
@@ -8,17 +7,17 @@ export interface IAppProps {
 export default class App extends React.Component<IAppProps> {
   public render() {
     return (
-    <Main>
+    <div>
         <br />
         <br />
         <img src={logo} className="App-logo" alt="logo" />
         <br />
-        <p>This site is under construction - Coming Soon!!!</p>
+        <p>This page is under construction - Coming Soon!!!</p>
         <br />
         <br />
         <br />
         <br />
-    </Main>
+    </div>
     );
   }
 }
