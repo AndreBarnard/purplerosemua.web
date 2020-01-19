@@ -8,7 +8,7 @@ import {
 export interface IAppProps {
 }
 
-export default class App extends React.Component<IAppProps> {
+export default class Header extends React.Component<IAppProps> {
   public render() {
     return (
       <header>

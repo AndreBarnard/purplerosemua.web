@@ -4,7 +4,7 @@ import logo from '../Images/PurpleRoseMUA_CapeTown_Makeup_Artist.jpg';
 export interface IAppProps {
 }
 
-export default class App extends React.Component<IAppProps> {
+export default class Underconstruction extends React.Component<IAppProps> {
   public render() {
     return (
     <div>

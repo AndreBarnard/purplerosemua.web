@@ -8,11 +8,11 @@ import Wrapper from '../Templetes/Wrapper'
 import {
 	Link,
   } from "react-router-dom";
-  
+
 export interface IAppProps {
 }
 
-export default class App extends React.Component<IAppProps> {
+export default class Footer extends React.Component<IAppProps> {
   public render() {
     return (
 		<Wrapper>

@@ -1,0 +1,112 @@
+{
+    "services" : {
+        "makeup" : [
+            {
+                "styleName" : "Natural Glow Up",
+                "price" : "R700",
+                "thumbnailLink" : "http://www.purplerosemua.com/static/media/PurpleRoseMUA_MakeUp_NaturalGlowUp.jpg"
+            },
+            {
+                "styleName" : "Glow Up",
+                "price" : "R600",
+                "thumbnailLink" : "http://www.purplerosemua.com/static/media/PurpleRoseMUA_MakeUp_GlowUp.jpg"
+            },
+            {
+                "styleName" : "Happily Ever After",
+                "price" : "R1400",
+                "thumbnailLink" : "http://www.purplerosemua.com/static/media/PurpleRoseMUA_MakeUp_HappilyEverAfter.jpg"
+            },
+            {
+                "styleName" : "Bridesmaid",
+                "price" : "R800",
+                "thumbnailLink" : "http://www.purplerosemua.com/static/media/PurpleRoseMUA_MakeUp_BridesMaid.jpg"
+            },
+            {
+                "styleName" : "Flower girls (under the age of 12)",
+                "price" : "R150",
+                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+            },
+            {
+                "styleName" : "Face Paint",
+                "price" : "Request quote",
+                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+            },
+            {
+                "styleName" : "Special Effects",
+                "price" : "Request quote",
+                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+            }
+        ],
+        "hair" : [
+            {
+                "styleName" : "Bride",
+                "price" : "R1500",
+                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+            },
+            {
+                "styleName" : "Bride Trail",
+                "price" : "R750",
+                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+            },
+            {
+                "styleName" : "Additional Hair (per person)",
+                "price" : "R750",
+                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+            }
+        ],
+        "treadingWaxing" : [
+            {
+                "styleName" : "Brows",
+                "price" : "R95",
+                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+            },
+            {
+                "styleName" : "Lip",
+                "price" : "R65",
+                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+            },
+            {
+                "styleName" : "Chin",
+                "price" : "R65",
+                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+            },
+            {
+                "styleName" : "Sides",
+                "price" : "R85",
+                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+            },
+            {
+                "styleName" : "Full Face",
+                "price" : "R250",
+                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+            },
+            {
+                "styleName" : "Nostril Waxing",
+                "price" : "R65",
+                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+            }
+        ],
+        "tintingLashLifting" : [
+            {
+                "styleName" : "Lash Tint",
+                "price" : "R80",
+                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+            },
+            {
+                "styleName" : "Brow Tint",
+                "price" : "R60",
+                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+            },
+            {
+                "styleName" : "Lash Lifting",
+                "price" : "R420",
+                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+            },
+            {
+                "styleName" : "Lash Lifting with Lash Tint",
+                "price" : "R480",
+                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+            }
+        ]
+    }        
+}

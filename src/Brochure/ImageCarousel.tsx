@@ -10,7 +10,7 @@ import StudioPhotoShoot from '../Images/Home/Studio_Photo_Shoot_Makeup.jpg'
 export interface IAppProps {
 }
 
-export default class App extends React.Component<IAppProps> {
+export default class ImageCarousel extends React.Component<IAppProps> {
   public render() {
     return (
       <Module>

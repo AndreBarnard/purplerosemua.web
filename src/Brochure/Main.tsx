@@ -40,7 +40,7 @@ const routes = [
   },
 ];
 
-export default class App extends React.Component<IAppProps> {
+export default class Main extends React.Component<IAppProps> {
   public render() {
     return (
       <div>

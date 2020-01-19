@@ -15,6 +15,7 @@
     -moz-border-radius: 5px;
     border-radius: 5px;
     border: 1px solid #cccbcb;
+    text-align: left;
 }
 
 .col {
@@ -24,15 +25,52 @@
 .pr-module .pr-title {
     color: #724B73;
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 1.5em;
+    margin-bottom: 1em;    
+}
+
+.item-title {
+    margin-bottom: 1em;
+    margin-left: 1em;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.4em;
     text-align: left;
 }
 
-.pr-flyer-in {
-    background: none !important;
-    filter: none;
-    border: none;
-    padding: 0;
-    line-height: 1.5em;
+.item-title span {
+    background: url(../Images/Site/flyer_arrow.png) no-repeat left 50%;
+    padding: 0 0 0 12px;
+    margin: 0 0 0 5px;
+}
+
+.item-tooltip {
+    font-style: italic;
+    text-align: left;    
+    font-size: 0.8em;
+    margin-left: 1em;
+}
+
+.item-desc {
+    text-align: left;    
+    font-size: 0.9em;
+    margin-left: 1em;
+}
+
+.item-img {
+    cursor: pointer;
+    width: 158px;
+}
+
+.item-name {
+    color: #724B73;
+    font-weight: bold;
+    margin-top: 0.2em;
+    margin-bottom: 0.1em;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.item-details {
+    font-size: 0.8em;
 }
