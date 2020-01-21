@@ -55,7 +55,7 @@ function FlyerImgRowMain(props : Services) {
     
     var newServiceRow2: Service[] = [];
     newServiceRow2.push(props.Service[2]);
-    newServiceRow2.push(props.Service[3]);  
+    //newServiceRow2.push(props.Service[3]);  
     return <div>
         <FlyerImgRow Service={newServiceRow1} />
         <FlyerImgRow Service={newServiceRow2} />
@@ -73,20 +73,21 @@ function FlyerImgRowMain(props : Services) {
 }
 
 function FlyerImgRow(props : Services) {
-    var serviceItem1 = props.Service[0];
-    var serviceItem2 = props.Service[1];
-    return <div>
+return <div>
         <div className="row">
-            <ServiceImage imageSource={serviceItem1.thumbnailLink} imageDesc={serviceItem1.styleName}/>
-            <ServiceImage imageSource={serviceItem2.thumbnailLink} imageDesc={serviceItem2.styleName}/>
+            {props.Service.map((serviceItem, i) => (
+                <ServiceImage imageSource={serviceItem.thumbnailLink} imageDesc={serviceItem.styleName}/>
+            ))}
         </div>
         <div className="row">
-            <ServiceName name={serviceItem1.styleName} />
-            <ServiceName name={serviceItem2.styleName} />
+        {props.Service.map((serviceItem, i) => (
+                <ServiceName name={serviceItem.styleName}/>
+            ))}
         </div>
         <div className="row">
-            <ServicePrice price={serviceItem1.price} />    
-            <ServicePrice price={serviceItem2.price} />            
+            {props.Service.map((serviceItem, i) => (
+                <ServicePrice price={serviceItem.price}/>
+            ))}         
         </div>
     </div>;
 }

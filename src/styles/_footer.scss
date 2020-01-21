@@ -1,9 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
-
-$purple-dark : #826fa9;
-$text-colour :#000000;
-$purple-primary : #b29ddb;
-$secondary-light : #6ab7ff;
+@import "_colourTheme.scss";
 
 section {
     width: 100%;

@@ -1,3 +1,5 @@
+@import "_colourTheme.scss";
+
 #pr-wrapper{
     padding: 20px 20px 20px;
     background: #fff;
@@ -18,12 +20,30 @@
     text-align: left;
 }
 
+.pr-module-dark {
+    margin-top: 1em;
+    padding: 15px;
+    background: $purple-dark;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #cccbcb;
+    text-align: left;
+}
+
 .col {
     padding-bottom: 15px;
 }
 
 .pr-module .pr-title {
     color: #724B73;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 1em;    
+}
+
+.pr-module-dark .pr-title {
+    color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5em;
     margin-bottom: 1em;    
