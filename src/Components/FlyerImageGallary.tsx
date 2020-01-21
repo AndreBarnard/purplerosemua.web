@@ -29,36 +29,37 @@ const PageNumber = (props: { onClick: (arg0: any, arg1: any) => void; number: Re
 
 
 function ServiceName(props: { name: string; }) {
-    return <div className="col-md-6 item-name">{props.name}</div>;
+    return <div className="item-name">{props.name}</div>;
 }
 
 function ServicePrice(props: { price: string; }) {
-    return <div className="col-md-6 item-details">Price: {props.price}</div>;
+    return <div className="item-details">Price: {props.price}</div>;
 }
 
 function ServiceImage(props: { imageSource: string; imageDesc: string; }) {
-    return <div className="col-md-6">
-        <div className="item-img">
+    return <div className="item-img">
             <img 
                 src={props.imageSource} 
                 alt={props.imageDesc}  
             />
-        </div>
     </div>
 }
 
-function FlyerImgRowMain(props : Services) {
-    var loopCounter = utils.pagecount(props.Service.length);
+function FlyerImgGrid(ServiceObj : Services) {
+    var loopCounter = utils.pagecount(ServiceObj.Service.length);
     var newServiceRow1: Service[] = [];
-    newServiceRow1.push(props.Service[0]);
-    newServiceRow1.push(props.Service[1]);    
+    newServiceRow1.push(ServiceObj.Service[0]);
+    newServiceRow1.push(ServiceObj.Service[1]);    
     
     var newServiceRow2: Service[] = [];
-    newServiceRow2.push(props.Service[2]);
+    newServiceRow2.push(ServiceObj.Service[2]);
     //newServiceRow2.push(props.Service[3]);  
     return <div>
-        <FlyerImgRow Service={newServiceRow1} />
-        <FlyerImgRow Service={newServiceRow2} />
+        <div className="row margin-left">
+            {ServiceObj.Service.map((service, i) => (
+                        <FlyerImg serviceItem={service} />
+                        ))} 
+        </div>
         <div className="pag-links">
             {utils.range(1, loopCounter).map((number: string | number | undefined) => (
             <PageNumber
@@ -72,29 +73,24 @@ function FlyerImgRowMain(props : Services) {
     </div>
 }
 
-function FlyerImgRow(props : Services) {
-return <div>
-        <div className="row">
-            {props.Service.map((serviceItem, i) => (
-                <ServiceImage imageSource={serviceItem.thumbnailLink} imageDesc={serviceItem.styleName}/>
-            ))}
-        </div>
-        <div className="row">
-        {props.Service.map((serviceItem, i) => (
-                <ServiceName name={serviceItem.styleName}/>
-            ))}
-        </div>
-        <div className="row">
-            {props.Service.map((serviceItem, i) => (
-                <ServicePrice price={serviceItem.price}/>
-            ))}         
-        </div>
+function FlyerImg(props: {serviceItem : Service;}) {
+return <div className="col-md-6">
+            <div className="row">
+                <ServiceImage imageSource={props.serviceItem.thumbnailLink} imageDesc={props.serviceItem.styleName}/>
+            </div>
+            <div className="row">
+                <ServiceName name={props.serviceItem.styleName}/>
+            </div>
+            <div className="row">
+                <ServicePrice price={props.serviceItem.price}/>     
+            </div>
     </div>;
 }
 
 interface Service {
     styleName: string,
     price: string,
+    sideNote: string,
     thumbnailLink: string
 }
 
@@ -106,7 +102,7 @@ export default class FlyerImageGallary extends React.Component<Services> {
   public render() {
     return (
         <>
-        <FlyerImgRowMain Service={this.props.Service} />           
+        <FlyerImgGrid Service={this.props.Service} />           
         </>
     );
   }
