@@ -1,112 +1,152 @@
 {
     "services" : {
-        "makeup" : [
+        "makeup" : {
+            "title" : "Make-up",
+            "tooltip" : "All makeup is applied by qualified makeup artist",
+            "desciptionParagraphTop" : "",
+            "desciptionParagraphBottom" : "Our service is not limited to just the above list please contact us if what you desire is not shown.",
+            "serviceList" : [
             {
                 "styleName" : "Natural Glow Up",
+                "sideNote" : "",
                 "price" : "R700",
                 "thumbnailLink" : "http://www.purplerosemua.com/static/media/PurpleRoseMUA_MakeUp_NaturalGlowUp.jpg"
             },
             {
                 "styleName" : "Glow Up",
+                "sideNote" : "",
                 "price" : "R600",
                 "thumbnailLink" : "http://www.purplerosemua.com/static/media/PurpleRoseMUA_MakeUp_GlowUp.jpg"
             },
             {
                 "styleName" : "Happily Ever After",
+                "sideNote" : "",
                 "price" : "R1400",
                 "thumbnailLink" : "http://www.purplerosemua.com/static/media/PurpleRoseMUA_MakeUp_HappilyEverAfter.jpg"
             },
             {
                 "styleName" : "Bridesmaid",
+                "sideNote" : "",
                 "price" : "R800",
                 "thumbnailLink" : "http://www.purplerosemua.com/static/media/PurpleRoseMUA_MakeUp_BridesMaid.jpg"
             },
             {
-                "styleName" : "Flower girls (under the age of 12)",
+                "styleName" : "Flower girls",
+                "sideNote" : "(under the age of 12)",
                 "price" : "R150",
-                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+                "thumbnailLink" : "http://www.purplerosemua.com/static/media/NoImage.jpg"
             },
             {
                 "styleName" : "Face Paint",
+                "sideNote" : "",
                 "price" : "Request quote",
-                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+                "thumbnailLink" : "http://www.purplerosemua.com/static/media/NoImage.jpg"
             },
             {
                 "styleName" : "Special Effects",
+                "sideNote" : "",
                 "price" : "Request quote",
-                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+                "thumbnailLink" : "http://www.purplerosemua.com/static/media/NoImage.jpg"
             }
-        ],
-        "hair" : [
+        ]},
+        "hair" : {
+            "title" : "Hair",
+            "tooltip" : "All hair is styled by qualified hair stylists",
+            "desciptionParagraphTop" : "",
+            "desciptionParagraphBottom" : "Our service is not limited to just the above list please contact us if what you desire is not shown.",
+            "serviceList" :[
             {
                 "styleName" : "Bride",
+                "sideNote" : "",
                 "price" : "R1500",
-                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+                "thumbnailLink" : "http://www.purplerosemua.com/static/media/NoImage.jpg"
             },
             {
                 "styleName" : "Bride Trail",
+                "sideNote" : "",
                 "price" : "R750",
-                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+                "thumbnailLink" : "http://www.purplerosemua.com/static/media/NoImage.jpg"
             },
             {
-                "styleName" : "Additional Hair (per person)",
+                "styleName" : "Additional Hair",
+                "sideNote" : "(per person)",
                 "price" : "R750",
-                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+                "thumbnailLink" : "http://www.purplerosemua.com/static/media/NoImage.jpg"
             }
-        ],
-        "treadingWaxing" : [
+        ]},
+        "treadingWaxing" : {
+            "title" : "Treading & Waxing",
+            "tooltip" : "All treading and waxing is applied by qualified professionals",
+            "desciptionParagraphTop" : "",
+            "desciptionParagraphBottom" : "",
+            "serviceList" : [
             {
                 "styleName" : "Brows",
+                "sideNote" : "",
                 "price" : "R95",
-                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+                "thumbnailLink" : "http://www.purplerosemua.com/static/media/NoImage.jpg"
             },
             {
                 "styleName" : "Lip",
+                "sideNote" : "",
                 "price" : "R65",
-                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+                "thumbnailLink" : "http://www.purplerosemua.com/static/media/NoImage.jpg"
             },
             {
                 "styleName" : "Chin",
+                "sideNote" : "",
                 "price" : "R65",
-                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+                "thumbnailLink" : "http://www.purplerosemua.com/static/media/NoImage.jpg"
             },
             {
                 "styleName" : "Sides",
+                "sideNote" : "",
                 "price" : "R85",
-                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+                "thumbnailLink" : "http://www.purplerosemua.com/static/media/NoImage.jpg"
             },
             {
                 "styleName" : "Full Face",
+                "sideNote" : "",
                 "price" : "R250",
-                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+                "thumbnailLink" : "http://www.purplerosemua.com/static/media/NoImage.jpg"
             },
             {
                 "styleName" : "Nostril Waxing",
+                "sideNote" : "",
                 "price" : "R65",
-                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+                "thumbnailLink" : "http://www.purplerosemua.com/static/media/NoImage.jpg"
             }
-        ],
-        "tintingLashLifting" : [
+        ]},
+        "tintingLashLifting" : {
+            "title" : "Tinting & Lash Lifting",
+            "tooltip" : "All tinting and lifting is applied by qualified professionals",
+            "desciptionParagraphTop" : "",
+            "desciptionParagraphBottom" : "",
+            "serviceList" :[
             {
                 "styleName" : "Lash Tint",
+                "sideNote" : "",
                 "price" : "R80",
-                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+                "thumbnailLink" : "http://www.purplerosemua.com/static/media/NoImage.jpg"
             },
             {
                 "styleName" : "Brow Tint",
+                "sideNote" : "",
                 "price" : "R60",
-                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+                "thumbnailLink" : "http://www.purplerosemua.com/static/media/NoImage.jpg"
             },
             {
                 "styleName" : "Lash Lifting",
+                "sideNote" : "",
                 "price" : "R420",
-                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+                "thumbnailLink" : "http://www.purplerosemua.com/static/media/NoImage.jpg"
             },
             {
                 "styleName" : "Lash Lifting with Lash Tint",
+                "sideNote" : "",
                 "price" : "R480",
-                "thumbnailLink" : "../static/media/PurpleRoseMUA_MakeUp_GlowUp.f9a8e82b.jpg"
+                "thumbnailLink" : "http://www.purplerosemua.com/static/media/NoImage.jpg"
             }
-        ]
+        ]}
     }        
 }
