@@ -2,7 +2,6 @@ import * as React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faPhone, faMapMarker} from '@fortawesome/free-solid-svg-icons'
 import { faFacebook, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons'
-import '../styles/_footer.scss'
 import logotrans from '../Images/PurpleRoseMUA_CapeTown_Makeup_Artist.jpg';
 import Wrapper from '../Templetes/Wrapper'
 import {

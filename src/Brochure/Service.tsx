@@ -1,7 +1,6 @@
 import * as React from 'react';
 import Module from '../Templetes/Module'
 import ModuleDark from '../Templetes/ModuleDark'
-import '../styles/_services.scss';
 import FlyerImageGallary from '../Components/FlyerImageGallary';
 import ServiceData from '../Data/Services.json'
 

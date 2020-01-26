@@ -1,5 +1,4 @@
 import * as React from 'react';
-import '../styles/_services.scss';
 
 export interface IAppProps {
 }
