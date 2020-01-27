@@ -13,7 +13,7 @@ export default class Header extends React.Component<IAppProps> {
   public render() {
     return (
       <header className="beautypress-header-section beautypress-header-version-4 navbar-fixed menu-skew header-height-calc-minus">
-			<div className="beautypress-main-header bg-color-cyan">
+			<div className="beautypress-main-header bg-color-purple">
 				<div className="container">
 					<nav className="xs-navigation-middle-menu">
 						<div className="nav-toggle"></div>

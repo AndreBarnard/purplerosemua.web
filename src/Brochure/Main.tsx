@@ -46,7 +46,7 @@ export default class Main extends React.Component<IAppProps> {
       <div>
         <Router>
           <Header />
-
+          <Footer />
         </Router>
       </div>
     );
