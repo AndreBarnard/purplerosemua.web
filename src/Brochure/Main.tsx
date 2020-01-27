@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Header from './Header';
-import Footer from './Footer';
+import Footer from '../Footer/Footer';
 import Wrapper from '../Templetes/Wrapper'
 import {
   BrowserRouter as Router,
