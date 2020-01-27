@@ -45,27 +45,8 @@ export default class Main extends React.Component<IAppProps> {
     return (
       <div>
         <Router>
-          <div className="row">
-            <div className="col col-lg-12">
-              <Header />
-            </div>
-          </div>
-          <div className="row">
-            <div className="col col-lg-12">
-              <Wrapper>
-                <Switch>            
-                {routes.map((route, i) => (
-                    <Route path={route.path} component={route.component}/>
-                  ))}    
-                </Switch>
-              </Wrapper>          
-            </div>
-          </div>        
-          <div className="row">
-            <div className="col col-lg-12">
-              <Footer/>
-            </div>          
-          </div>
+          <Header />
+
         </Router>
       </div>
     );

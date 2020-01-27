@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
 import Main from './Brochure/Main';
-import './styles/_purplerosekernel.scss';
+import './styles/style.scss';
 
 function App() {
   return (
