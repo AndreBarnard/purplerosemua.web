@@ -34,19 +34,19 @@
                 "styleName" : "Flower girls",
                 "sideNote" : "(under the age of 12)",
                 "price" : "R150",
-                "thumbnailLink" : "http://www.purplerosemua.com/static/media/NoImage.jpg"
+                "thumbnailLink" : "https://via.placeholder.com/150"
             },
             {
                 "styleName" : "Face Paint",
                 "sideNote" : "",
                 "price" : "Request quote",
-                "thumbnailLink" : "http://www.purplerosemua.com/static/media/NoImage.jpg"
+                "thumbnailLink" : "https://via.placeholder.com/150"
             },
             {
                 "styleName" : "Special Effects",
                 "sideNote" : "",
                 "price" : "Request quote",
-                "thumbnailLink" : "http://www.purplerosemua.com/static/media/NoImage.jpg"
+                "thumbnailLink" : "https://via.placeholder.com/150"
             }
         ]},
         "hair" : {
@@ -65,13 +65,13 @@
                 "styleName" : "Bride Trail",
                 "sideNote" : "",
                 "price" : "R750",
-                "thumbnailLink" : "http://www.purplerosemua.com/static/media/NoImage.jpg"
+                "thumbnailLink" : "https://via.placeholder.com/150"
             },
             {
                 "styleName" : "Additional Hair",
                 "sideNote" : "(per person)",
                 "price" : "R750",
-                "thumbnailLink" : "http://www.purplerosemua.com/static/media/NoImage.jpg"
+                "thumbnailLink" : "https://via.placeholder.com/150"
             }
         ]},
         "treadingWaxing" : {
@@ -84,37 +84,37 @@
                 "styleName" : "Brows",
                 "sideNote" : "",
                 "price" : "R95",
-                "thumbnailLink" : "http://www.purplerosemua.com/static/media/NoImage.jpg"
+                "thumbnailLink" : "https://via.placeholder.com/150"
             },
             {
                 "styleName" : "Lip",
                 "sideNote" : "",
                 "price" : "R65",
-                "thumbnailLink" : "http://www.purplerosemua.com/static/media/NoImage.jpg"
+                "thumbnailLink" : "https://via.placeholder.com/150"
             },
             {
                 "styleName" : "Chin",
                 "sideNote" : "",
                 "price" : "R65",
-                "thumbnailLink" : "http://www.purplerosemua.com/static/media/NoImage.jpg"
+                "thumbnailLink" : "https://via.placeholder.com/150"
             },
             {
                 "styleName" : "Sides",
                 "sideNote" : "",
                 "price" : "R85",
-                "thumbnailLink" : "http://www.purplerosemua.com/static/media/NoImage.jpg"
+                "thumbnailLink" : "https://via.placeholder.com/150"
             },
             {
                 "styleName" : "Full Face",
                 "sideNote" : "",
                 "price" : "R250",
-                "thumbnailLink" : "http://www.purplerosemua.com/static/media/NoImage.jpg"
+                "thumbnailLink" : "https://via.placeholder.com/150"
             },
             {
                 "styleName" : "Nostril Waxing",
                 "sideNote" : "",
                 "price" : "R65",
-                "thumbnailLink" : "http://www.purplerosemua.com/static/media/NoImage.jpg"
+                "thumbnailLink" : "https://via.placeholder.com/150"
             }
         ]},
         "tintingLashLifting" : {
@@ -127,25 +127,25 @@
                 "styleName" : "Lash Tint",
                 "sideNote" : "",
                 "price" : "R80",
-                "thumbnailLink" : "http://www.purplerosemua.com/static/media/NoImage.jpg"
+                "thumbnailLink" : "https://via.placeholder.com/150"
             },
             {
                 "styleName" : "Brow Tint",
                 "sideNote" : "",
                 "price" : "R60",
-                "thumbnailLink" : "http://www.purplerosemua.com/static/media/NoImage.jpg"
+                "thumbnailLink" : "https://via.placeholder.com/150"
             },
             {
                 "styleName" : "Lash Lifting",
                 "sideNote" : "",
                 "price" : "R420",
-                "thumbnailLink" : "http://www.purplerosemua.com/static/media/NoImage.jpg"
+                "thumbnailLink" : "https://via.placeholder.com/150"
             },
             {
                 "styleName" : "Lash Lifting with Lash Tint",
                 "sideNote" : "",
                 "price" : "R480",
-                "thumbnailLink" : "http://www.purplerosemua.com/static/media/NoImage.jpg"
+                "thumbnailLink" : "https://via.placeholder.com/150"
             }
         ]}
     }        

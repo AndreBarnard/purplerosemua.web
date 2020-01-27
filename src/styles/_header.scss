@@ -1,6 +1,7 @@
 $text-colour :#000000;
 $text-colour-hover :#e6ceff;
 $text-colour-active :#836fa9;
+$text-colour-visited : grey;
 $purple-primary : #b29ddb;
 
 .main-nav ul {
@@ -26,7 +27,7 @@ $purple-primary : #b29ddb;
     color: $text-colour-active;
     text-decoration: none;
   }
-
+  
 .main-nav a {
     color: $text-colour;
   }
