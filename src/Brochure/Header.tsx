@@ -20,7 +20,7 @@ export default class Header extends React.Component<IAppProps> {
 						<div className="nav-menus-wrapper xs-row">
 							<div className="xs-col-5">
 								<ul className="nav-menu nav-menu-centered text-right">
-									<li><a href="#">Home</a>
+									<li><Link to="/">Home</Link>
 										<ul className="nav-dropdown">
 											<li><a href="index.html">home version 1</a></li>
 											<li><a href="index-v2.html">home version 2</a></li>

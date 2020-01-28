@@ -1,4 +1,6 @@
 import * as React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faComment, faUser} from '@fortawesome/free-solid-svg-icons'
 
 export interface IAppProps {
 }
@@ -20,8 +22,8 @@ function ResentPost() {
                     </div>
                     <div className="wt-post-meta">
                         <ul>
-                            <li className="post-author"><i className="fa fa-user"></i>By Admin</li>
-                            <li className="post-comment"><i className="fa fa-comments"></i> 28</li>
+                            <li className="post-author"><FontAwesomeIcon icon={faUser} /> By Admin </li>
+                            <li className="post-comment"><FontAwesomeIcon icon={faComment} /> 28</li>
                         </ul>
                     </div>
                 </div>
@@ -37,8 +39,8 @@ function ResentPost() {
                     </div>
                     <div className="wt-post-meta">
                         <ul>
-                            <li className="post-author"><i className="fa fa-user"></i>By Admin</li>
-                            <li className="post-comment"><i className="fa fa-comments"></i> 29</li>
+                            <li className="post-author"><FontAwesomeIcon icon={faUser} /> By Admin </li>
+                            <li className="post-comment"> <FontAwesomeIcon icon={faComment} /> 29</li>
                         </ul>
                     </div>
                 </div>
@@ -54,8 +56,8 @@ function ResentPost() {
                     </div>
                     <div className="wt-post-meta">
                         <ul>
-                            <li className="post-author"><i className="fa fa-user"></i>By Admin</li>
-                            <li className="post-comment"><i className="fa fa-comments"></i> 30</li>
+                            <li className="post-author"><FontAwesomeIcon icon={faUser} /> By Admin</li>
+                            <li className="post-comment"> <FontAwesomeIcon icon={faComment} /> 30</li>
                         </ul>
                     </div>
                 </div>

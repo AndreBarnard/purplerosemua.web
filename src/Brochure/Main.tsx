@@ -1,14 +1,13 @@
 import * as React from 'react';
 import Header from './Header';
 import Footer from '../Footer/Footer';
-import Wrapper from '../Templetes/Wrapper'
 import {
   BrowserRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
 
-import Home from './Home';
+import Home from '../Home/Home';
 import About from './About';
 import Portfolio from './Portfolio';
 import Services from './Service';
@@ -46,6 +45,11 @@ export default class Main extends React.Component<IAppProps> {
       <div>
         <Router>
           <Header />
+          <Switch>
+          {routes.map((route, i) => (
+                     <Route path={route.path} component={route.component} />
+                  ))} 
+          </Switch>
           <Footer />
         </Router>
       </div>

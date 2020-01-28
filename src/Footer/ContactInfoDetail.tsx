@@ -7,7 +7,7 @@ function ContactInfoDetail(props: {imageClass : string, infoTitle : string, cont
 
     return     <div className="col-md-3 col-sm-6  p-tb20">
     <div className="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix">
-         <div className="icon-md text-primary">
+         <div className="icon-md text-primary-contact-info">
              <span className={props.imageClass}></span>
          </div>
          <div className="icon-content">

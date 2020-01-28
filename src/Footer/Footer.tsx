@@ -21,7 +21,6 @@ export default class Footer extends React.Component<IAppProps> {
   public render() {
     return (
 		<footer className="site-footer footer-dark">
-		<ContactUsBanner />
 		<FooterTopOverlayWraper />
 		<Copyright CompanyName={CompanyName}/>
 	</footer>
