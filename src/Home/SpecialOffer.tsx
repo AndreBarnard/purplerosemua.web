@@ -1,5 +1,5 @@
 import * as React from 'react';
-import bg6 from '../Images/Background/bg-6.jpg';
+import bg7 from '../Images/Background/bg-7.png';
 
 export interface IAppProps {
 }
@@ -7,7 +7,7 @@ export interface IAppProps {
 function SpecialOffer() {
 
 
-    return <div className="section-full  special-offer-block2 overlay-wraper bg-repeat p-t80 p-b50"  style={{backgroundImage: `url(${bg6})`}}>
+    return <div className="section-full  special-offer-block2 overlay-wraper bg-repeat p-t80 p-b50"  style={{backgroundImage: `url(${bg7})`}}>
     <div className="overlay-main bg-white opacity-01"></div>
     <div className="left-larg-pic">
         <div className="wt-media">

@@ -6,6 +6,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import '../styles/_purplerose.scss'
 
 import Home from '../Home/Home';
 import About from './About';
