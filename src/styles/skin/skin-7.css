@@ -240,7 +240,7 @@ ol.comment-list li.comment .reply a,
 .masonry-filter.link-style.has-bg > li:hover a,
 .masonry-filter.outline-style.has-bg > li a:hover,
 .social-icons.social-dark.has-bg li a:hover {
-	color:#9F5BA4 !important;
+	color:#9F5BA4;
 }
 @media only screen and (max-width:991px) {
 .bg-primary .header-nav .nav > li:hover > a,
