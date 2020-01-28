@@ -1,6 +1,5 @@
 import * as React from 'react';
-
-import bg11 from '../Images/Background/bg-11.jpg';
+import Title from './Title';
 
 export interface IAppProps {
 }
@@ -9,20 +8,10 @@ function Services() {
 
     return <div className="section-full bg-gray p-t80 p-b120">
     <div className="container">
-        {/* <!-- TITLE START--> */}
-        <div className="section-head text-center">
-            <h2><span className="text-primary">Our</span> Services</h2>
-            <div className="wt-separator-outer">
-                <div className="wt-separator style-icon">
-                    <i className="fa fa-leaf text-black"></i>
-                    <span className="separator-left bg-primary"></span>
-                    <span className="separator-right bg-primary"></span>
-                </div>                            
-            </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at.
-                  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-        </div>
-        {/* <!-- TITLE END--> */}
+    <Title 
+        titleSpan="Our" 
+        titleH2="Services" 
+        paragraph="Some text about Purple Rose services" />
         <div className="section-content">
             <div className="owl-carousel our-pricing-carousel owl-btn-vertical-center owl-btn-hover nav nav-tabs">
                 

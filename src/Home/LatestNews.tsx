@@ -1,5 +1,6 @@
 import * as React from 'react';
 import blogBig from '../Images/Home/blog-big.jpg';
+import Title from './Title';
 
 export interface IAppProps {
 }
@@ -8,20 +9,11 @@ function LatestNews() {
 
     return <div className="section-full latest-blog bg-gray p-t80 p-b50">
     <div className="container">
-        {/* <!-- TITLE --> */}
-        <div className="section-head text-center">
-            <h2><span className="text-primary">Latest </span> News</h2>
-            <div className="wt-separator-outer ">
-                <div className="wt-separator style-icon">
-                    <i className="fa fa-leaf text-black"></i>
-                    <span className="separator-left bg-primary"></span>
-                    <span className="separator-right bg-primary"></span>
-                </div>                            
-            </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-        </div>
-        
-        {/* <!-- TITLE --> */}
+    <Title 
+        titleSpan="Latest" 
+        titleH2="News" 
+        paragraph="Some text about Purple Rose lates" />
+
         
         <div className="section-content ">
             <div className="row equal-wraper">

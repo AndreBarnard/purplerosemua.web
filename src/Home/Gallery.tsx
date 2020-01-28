@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Title from './Title';
 
 export interface IAppProps {
 }
@@ -7,20 +8,11 @@ function Gallery() {
 
     return <div className="section-full p-t80 p-b80 bg-white" id="content1">
     <div className="container">
-         {/* <!-- TITLE START--> */}
-         <div className="section-head text-center">
-            <h2><span className="text-primary">Our</span> Gallery</h2>
-            <div className="wt-separator-outer ">
-                <div className="wt-separator style-icon">
-                    <i className="fa fa-leaf text-black"></i>
-                    <span className="separator-left bg-primary"></span>
-                    <span className="separator-right bg-primary"></span>
-                </div>                            
-            </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-        </div>
-         {/* <!-- TITLE END--> */}
-                                  
+    <Title 
+        titleSpan="Our" 
+        titleH2="Gallery" 
+        paragraph="Some text about Purple rose gallary" />
+                                 
          {/* <!-- PAGINATION START --> */}
         <div className="filter-wrap p-a15 our-gallery  m-tb30">
             <ul className="masonry-filter link-style  text-uppercase center-block m-t0">
