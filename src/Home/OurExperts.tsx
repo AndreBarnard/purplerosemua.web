@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Expert from './Expert';
-import jeanerienImg from '../Images/OurTeam/ex1.jpg'
-import irenaImg from '../Images/OurTeam/ex1.jpg'
+import jeanerienImg from '../Images/OurTeam/PurleRoseMua_JeanerienBarnard.jpg'
+import irenaImg from '../Images/OurTeam/IrinaGrant.jpg'
 import Title from './Title';
 
 export interface IAppProps {
@@ -21,7 +21,7 @@ function OurExperts() {
                 expertImg={jeanerienImg}
                 expertName="Jeanerien Barnard"
                 expertTitle="Founder, Purple Rose MUA"
-                expertFacebookURL="https://www.facebook.com/purplerosemua/"
+                expertFacebookURL="https://www.facebook.com/jeanerieng/"
                 experInstagramURL="https://www.instagram.com/jeanerienb22/"
                 experYoutubeURL="https://www.youtube.com/user/jeanerieng"
                 />
@@ -29,9 +29,9 @@ function OurExperts() {
                 <Expert 
                 expertImg={irenaImg}
                 expertName="Irina Grant"
-                expertTitle="Founder, Make-up stars"
-                expertFacebookURL="https://www.facebook.com/purplerosemua/"
-                experInstagramURL="https://www.instagram.com/jeanerienb22/"
+                expertTitle="Founder, Make-up stars Cape Town"
+                expertFacebookURL="https://www.facebook.com/Make-up-Stars-Cape-Town-338523172898000/"
+                experInstagramURL="https://www.instagram.com/irina_grant_makeupartist/"
                 experYoutubeURL="https://www.youtube.com/user/jeanerieng"
                 />
                 
