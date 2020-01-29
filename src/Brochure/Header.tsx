@@ -20,61 +20,9 @@ export default class Header extends React.Component<IAppProps> {
 						<div className="nav-menus-wrapper xs-row">
 							<div className="xs-col-5">
 								<ul className="nav-menu nav-menu-centered text-right">
-									<li><Link to="/">Home</Link>
-										<ul className="nav-dropdown">
-											<li><a href="index.html">home version 1</a></li>
-											<li><a href="index-v2.html">home version 2</a></li>
-											<li><a href="index-v3.html">home version 3</a></li>
-											<li><a href="index-v4.html">home version 4</a></li>
-											<li><a href="index-v5.html">home version 5</a></li>
-										</ul>
-									</li>
-									<li><a href="#">about</a>
-										<ul className="nav-dropdown">
-											<li><a href="about.html">about version 1</a></li>
-											<li><a href="about-v2.html">about version 2</a></li>
-											<li><a href="about-v3.html">about version 3</a></li>
-											<li><a href="about-v4.html">about version 4</a></li>
-											<li><a href="about-v5.html">about version 5</a></li>
-										</ul>
-									</li>
-									<li><a href="#">services</a>
-										<ul className="nav-dropdown">
-											<li><a href="service.html">service version 1</a></li>
-											<li><a href="service-v1.html">service version 2</a></li>
-											<li><a href="service-v2.html">service version 3</a></li>
-											<li><a href="service-v3.html">service version 4</a></li>
-											<li><a href="square-service.html">service version 5</a></li>
-										</ul>
-									</li>
-									<li><a href="#">portfolio</a>
-										<ul className="nav-dropdown">
-											<li><a href="">portfolio version 1</a>
-												<ul className="nav-dropdown">
-													<li><a href="portfolio-v1.html">portfolio filtering</a></li>
-													<li><a href="portfolio-v1-3d.html">portfolio 3d filtering</a></li>
-													<li><a href="portfolio-v1-2.html">portfolio out filtering</a></li>
-													<li><a href="portfolio-v1-2-3d.html">portfolio 3d out filtering</a></li>
-												</ul>
-											</li>
-											<li><a href="">portfolio version 2</a>
-												<ul className="nav-dropdown">
-													<li><a href="portfolio-v2.html">portfolio filtering</a></li>
-													<li><a href="portfolio-v2-3d.html">portfolio 3d filtering</a></li>
-													<li><a href="portfolio-v2-1.html">portfolio out filtering</a></li>
-													<li><a href="portfolio-v2-1-3d.html">portfolio 3d out filtering</a></li>
-												</ul>
-											</li>
-											<li><a href="">portfolio version 3</a>
-												<ul className="nav-dropdown">
-													<li><a href="portfolio-v3.html">portfolio filtering</a></li>
-													<li><a href="portfolio-v3-3d.html">portfolio 3d filtering</a></li>
-													<li><a href="portfolio-v3-1.html">portfolio out filtering</a></li>
-													<li><a href="portfolio-v3-1-3d.html">portfolio 3d out filtering</a></li>
-												</ul>
-											</li>
-										</ul>
-									</li>
+									<li><Link to="/">home</Link></li>
+									<li><Link to="/about">about</Link></li>
+									<li><Link to="/services">services</Link></li>
 								</ul>
 							</div>
 							<div className="xs-col-2">
@@ -84,64 +32,42 @@ export default class Header extends React.Component<IAppProps> {
 							</div>
 							<div className="xs-col-5">
 								<ul className="nav-menu nav-menu-centered text-left">
+								<li><a href="#">portfolio</a>
+										<ul className="nav-dropdown">
+											<li><a href="">portfolio version 1</a>
+												<ul className="nav-dropdown">
+													<li><Link to="/portfolio">portfolio filtering</Link></li>
+													<li><Link to="/portfolio">portfolio 3d filtering</Link></li>
+													<li><Link to="/portfolio">portfolio out filtering</Link></li>
+													<li><Link to="/portfolio">portfolio 3d out filtering</Link></li>
+												</ul>
+											</li>
+											<li><a href="">portfolio version 2</a>
+												<ul className="nav-dropdown">
+												<li><Link to="/portfolio">portfolio filtering</Link></li>
+												<li><Link to="/portfolio">portfolio 3d filtering</Link></li>
+												<li><Link to="/portfolio">portfolio out filtering</Link></li>
+												<li><Link to="/portfolio">portfolio 3d out filtering</Link></li>
+												</ul>
+											</li>
+											<li><a href="">portfolio version 3</a>
+												<ul className="nav-dropdown">
+												<li><Link to="/portfolio">portfolio filtering</Link></li>
+												<li><Link to="/portfolio">portfolio 3d filtering</Link></li>
+												<li><Link to="/portfolio">portfolio out filtering</Link></li>
+												<li><Link to="/portfolio">portfolio 3d out filtering</Link></li>
+												</ul>
+											</li>
+										</ul>
+									</li>
 									<li><a href="#">blog</a>
 										<ul className="nav-dropdown">
-											<li><a href="blog.html">blog version 1</a></li>
-											<li><a href="blog-v2.html">blog version 2</a></li>
-											<li><a href="blog-post.html">blog post</a></li>
+											<li><Link to="/blog">blog version 1</Link></li>
+											<li><Link to="/blog">blog version 2</Link></li>
+											<li><Link to="/blog">blog post</Link></li>
 										</ul>
 									</li>
-									<li><a href="#">contact</a>
-										<ul className="nav-dropdown">
-											<li><a href="contact.html">contact version 1</a></li>
-											<li><a href="contact-v2.html">contact version 2</a></li>
-											<li><a href="contact-v3.html">contact version 3</a></li>
-										</ul>
-									</li>
-									<li><a href="#">element</a>
-										<div className="megamenu-panel">
-											<div className="mega-menu-overlay-img"></div>
-											<div className="megamenu-lists">
-												<ul className="megamenu-list list-col-4">
-													<li className="megamenu-list-title"><a href="#">other</a></li>
-													<li><a href="element_404.html">404</a></li>
-													<li><a href="element_appointment.html">appointment</a></li>
-													<li><a href="element_appointment-v2.html">appointment 2</a></li>
-													<li><a href="element_call-to-action.html">call to action</a></li>
-													<li><a href="element_comming-soon.html">coming soon</a></li>
-													<li><a href="element_comming-soon-v2.html">coming soon 2</a></li>
-													<li><a href="element_faq.html">faq</a></li>
-												</ul>
-												<ul className="megamenu-list list-col-4">
-													<li className="megamenu-list-title"><a href="#">other</a></li>
-													<li><a href="element_footer.html">footer</a></li>
-													<li><a href="element_fun-fact.html">fun fact</a></li>
-													<li><a href="element_pricing.html">pricing</a></li>
-													<li><a href="element_pricing-v2.html">pricing 2</a></li>
-													<li><a href="element_shop.html">shop</a></li>
-													<li><a href="element_sponsor.html">sponsor</a></li>
-													<li><a href="element_tab.html">tab</a></li>
-												</ul>
-												<ul className="megamenu-list list-col-4">
-													<li className="megamenu-list-title"><a href="#">other</a></li>
-													<li><a href="element_team.html">team</a></li>
-													<li><a href="element_team-v2.html">team 2</a></li>
-													<li><a href="element_what-we-do.html">what we do</a></li>
-													<li><a href="cart.html">cart</a></li>
-													<li><a href="product-details.html">product details</a></li>
-													<li><a href="element_menu.html">menu</a></li>
-												</ul>
-												<ul className="megamenu-list list-col-4">
-													<li className="megamenu-list-title"><a href="#">image</a></li>
-													<li className="text-content">
-														<p>
-															One morning, when Gregor Samsa woke from troubled dreams, he found.
-														</p>
-													</li>
-												</ul>
-											</div>
-										</div>
-									</li>
+									<li><Link to="/contact">contact</Link></li>
 								</ul>
 							</div>
 						</div>

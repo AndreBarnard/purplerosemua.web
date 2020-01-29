@@ -13,6 +13,7 @@ import About from './About';
 import Portfolio from './Portfolio';
 import Services from './Service';
 import Contact from './Contact';
+import BlogMain from '../Blog/BlogMain';
 
 export interface IAppProps {
 }
@@ -33,6 +34,10 @@ const routes = [
   {
     path: "/contact",
     component: Contact
+  },
+  {
+    path: "/blog",
+    component:  BlogMain
   },
   {
     path: "/",
