@@ -80,13 +80,7 @@ export default class Header extends React.Component<IAppProps> {
 											</li>
 										</ul>
 									</li>
-									<li><a href="#">blog</a>
-										<ul className="nav-dropdown">
-											<li><Link to="/blog">blog version 1</Link></li>
-											<li><Link to="/blog">blog version 2</Link></li>
-											<li><Link to="/blog">blog post</Link></li>
-										</ul>
-									</li>
+									<li><Link to="/blog">blog</Link></li>
 									<li><Link to="/contact">contact</Link></li>
 								</ul>
 							</div>

@@ -9,10 +9,10 @@ import {
 import '../styles/_purplerose.scss'
 
 import Home from '../Home/Home';
-import About from './About';
+import About from '../About/About';
 import Portfolio from './Portfolio';
-import Services from './Service';
-import Contact from './Contact';
+import Services from '../Service/Services';
+import Contact from '../ContactUs/Contact';
 import BlogMain from '../Blog/BlogMain';
 import DupperWedding from '../Portfolio/Weddings/DupperWedding';
 import GeyerWedding from '../Portfolio/Weddings/GeyerWedding';

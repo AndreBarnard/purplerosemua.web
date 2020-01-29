@@ -17,15 +17,15 @@ function ClientSlide() {
             url="https://makeupstarscapetown.co.za/" />
 
             <ClientLinks 
-            logo={require('../Images/client-logo/therougerevue.png')} 
+            logo={require('../Images/client-logo/therougerevue2.png')} 
             url="https://therougerevue.co.za/" />       
 
             <ClientLinks 
-            logo={require('../Images/client-logo/GrimeHouse.jpg')} 
+            logo={require('../Images/client-logo/GrimeHouse.png')} 
             url="https://www.facebook.com/Grimehouse/" />      
 
             <ClientLinks 
-            logo={require('../Images/client-logo/dyme.png')} 
+            logo={require('../Images/client-logo/dyme2.png')} 
             url="https://www.dyme.co.za/" />  
             
             </div>
