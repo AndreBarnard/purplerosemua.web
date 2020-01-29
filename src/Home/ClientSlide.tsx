@@ -17,24 +17,16 @@ function ClientSlide() {
             url="https://makeupstarscapetown.co.za/" />
 
             <ClientLinks 
-            logo={require('../Images/client-logo/logo2.png')} 
-            url="http://www.google.com" />
-
-             <ClientLinks 
-            logo={require('../Images/client-logo/logo3.png')} 
-            url="http://www.google.com" />
-              
-              <ClientLinks 
-            logo={require('../Images/client-logo/logo4.png')} 
-            url="http://www.google.com" />
+            logo={require('../Images/client-logo/therougerevue.png')} 
+            url="https://therougerevue.co.za/" />       
 
             <ClientLinks 
-            logo={require('../Images/client-logo/logo5.png')} 
-            url="http://www.google.com" />
+            logo={require('../Images/client-logo/GrimeHouse.jpg')} 
+            url="https://www.facebook.com/Grimehouse/" />      
 
-           <ClientLinks 
-            logo={require('../Images/client-logo/logo6.png')} 
-            url="http://www.google.com" />               
+            <ClientLinks 
+            logo={require('../Images/client-logo/dyme.png')} 
+            url="https://www.dyme.co.za/" />  
             
             </div>
         </div>

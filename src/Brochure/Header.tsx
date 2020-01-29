@@ -26,23 +26,26 @@ export default class Header extends React.Component<IAppProps> {
 								</ul>
 							</div>
 							<div className="xs-col-2">
-								<a href="index.html" className="beautypress-logo beautypress-version-2">
-									<img src={logo} alt="Purple Rose MUA" />
-								</a>
+								<Link to="/" className="beautypress-logo beautypress-version-2">
+									<figure>
+										<img src={logo} alt="Purple Rose MUA" />
+										<figcaption style={{textDecoration:`none`, color:`#000`}}>Makeup Artistry</figcaption>
+									</figure>									
+								</Link>
 							</div>
 							<div className="xs-col-5">
 								<ul className="nav-menu nav-menu-centered text-left">
-								<li><a href="#">portfolio</a>
+									<li><a href="#">portfolio</a>
 										<ul className="nav-dropdown">
-											<li><a href="">portfolio version 1</a>
+											<li><a href="">Weddings</a>
 												<ul className="nav-dropdown">
-													<li><Link to="/portfolio">portfolio filtering</Link></li>
-													<li><Link to="/portfolio">portfolio 3d filtering</Link></li>
-													<li><Link to="/portfolio">portfolio out filtering</Link></li>
-													<li><Link to="/portfolio">portfolio 3d out filtering</Link></li>
+													<li><Link to="/dupperwedding">Dupper Wedding</Link></li>
+													<li><Link to="/geyerwedding">Geyer Wedding</Link></li>
+													<li><Link to="/portfolio">Wedding 1</Link></li>
+													<li><Link to="/portfolio">Wedding 2</Link></li>
 												</ul>
 											</li>
-											<li><a href="">portfolio version 2</a>
+											<li><a href="">Photoshoots</a>
 												<ul className="nav-dropdown">
 												<li><Link to="/portfolio">portfolio filtering</Link></li>
 												<li><Link to="/portfolio">portfolio 3d filtering</Link></li>
@@ -50,12 +53,29 @@ export default class Header extends React.Component<IAppProps> {
 												<li><Link to="/portfolio">portfolio 3d out filtering</Link></li>
 												</ul>
 											</li>
-											<li><a href="">portfolio version 3</a>
+											<li><a href="">Make-up Stars</a>
 												<ul className="nav-dropdown">
 												<li><Link to="/portfolio">portfolio filtering</Link></li>
 												<li><Link to="/portfolio">portfolio 3d filtering</Link></li>
 												<li><Link to="/portfolio">portfolio out filtering</Link></li>
 												<li><Link to="/portfolio">portfolio 3d out filtering</Link></li>
+												</ul>
+											</li>
+											<li><a href="">Make-up Looks</a>
+												<ul className="nav-dropdown">
+												<li><Link to="/portfolio">Before & Afters</Link></li>
+												</ul>
+											</li>
+											<li><a href="">Stage</a>
+												<ul className="nav-dropdown">
+												<li><Link to="/portfolio">The Rouge Revue</Link></li>
+												</ul>
+											</li>
+											<li><a href="">Facepaint & Special Effects</a>
+												<ul className="nav-dropdown">
+												<li><Link to="/portfolio">Facepaint</Link></li>
+												<li><Link to="/portfolio">Special Effects</Link></li>
+												<li><Link to="/portfolio">Grimehouse Music Video</Link></li>
 												</ul>
 											</li>
 										</ul>
