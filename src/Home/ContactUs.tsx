@@ -1,5 +1,6 @@
 import * as React from 'react';
 import bg11 from '../Images/Background/bg-11.jpg';
+import {Link} from "react-router-dom";
 
 export interface IAppProps {
 }
@@ -13,7 +14,7 @@ function ContactUs() {
             <div className="row conntact-home">
                 <div className="col-md-5 col-sm-5 contact-home4-left">
                     <div className="section-content p-tb30 overlay-wraper">
-                        <div className="overlay-main bg-primary opacity-09"></div>	
+                        <div className="overlay-main pr-bg-color opacity-09"></div>	
                           <div className="p-a30" style={{zIndex:1, position:`relative`}}>
                             <h3 className="font-weight-400 text-white m-b5">Make an</h3>
                             <h2 className="text-white m-t0"  style={{fontFamily: `Crete Round, serif`}}><i>Appointment</i></h2>
@@ -39,18 +40,19 @@ function ContactUs() {
                 </div>                        
                 <div className="col-md-7 col-sm-7 contact-home4-right p-t130 p-b50" >
                     <div className="section-content">
-                        <div className="opening-block bdr-5 bdr-primary p-a40 text-right">
-                            <a href="services-2.html" className="bg-primary book-now-btn p-tb5 p-lr15 text-uppercase font-16 font-weight-500">All Services</a>
+                        <div className="opening-block bdr-5 pr-bdr-primary p-a40 text-right">
+                            <Link to="/services" className="pr-bg-color book-now-btn p-tb5 p-lr15 text-uppercase font-16 font-weight-500 text-white">All Services</Link>
                             <h2 className="text-uppercase  text-secondry m-tb0">Best Services</h2>
-                            <span className="font-60 font-weight-600 text-uppercase text-primary">Open Hours</span>
-                            <p>If you feel tired and stressed after a working day, we are happy to give you an enjoyable and healthy solution to find your balance again.</p>
+                            <span className="font-60 font-weight-600 text-uppercase pr-text-primary">Open Hours</span>
+                            <p>I feel have a special event or it's your wedding day, don't delay contact us today and we will make you look beautiful all the way.</p>
                             <div className="clearfix">
                                 <ul className="list-unstyled m-b0">
                                     <li><div className="clearfix"><span className="opening-date">Mon-Fri:</span><span className="opening-time">9 AM - 6 PM</span></div></li>
-                                    <li><div className="clearfix"><span className="opening-date">Saturday:</span> <span className="opening-time">9 AM- 6 PM</span></div></li>
-                                    <li><div className="clearfix"><span className="opening-date">Sunday:</span> <span className="opening-time">Closed</span></div></li>
+                                    <li><div className="clearfix"><span className="opening-date">Saturday:</span> <span className="opening-time">9 AM - 2 PM</span></div></li>
+                                    <li><div className="clearfix"><span className="opening-date">Sunday:</span> <span className="opening-time">9 AM - 1 PM</span></div></li>
                                 </ul>
                             </div>
+                            <div className="pr-small-text">Time only indicate our contact hours if you have a booking that is outside of the business hours we wil still oblige.</div>
                         </div>
                     </div>                               
                 </div>
