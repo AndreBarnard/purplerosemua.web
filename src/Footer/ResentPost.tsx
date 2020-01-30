@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faComment, faUser} from '@fortawesome/free-solid-svg-icons'
+import FooterSectionHeading from './FooterSectionHeading';
 
 export interface IAppProps {
 }
@@ -9,7 +10,7 @@ function ResentPost() {
 
     return <div className="col-md-3 col-sm-6">
     <div className="widget recent-posts-entry-date">
-        <h4 className="widget-title">Resent Post</h4>
+        <FooterSectionHeading heading="Resent Post" />
         <div className="widget-post-bx">
             <div className="bdr-light-blue widget-post clearfix  bdr-b-1 m-b10 p-b10">
                 <div className="wt-post-date text-center text-uppercase text-white p-t5">

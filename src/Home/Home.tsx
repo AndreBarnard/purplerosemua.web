@@ -1,5 +1,5 @@
 import * as React from 'react';
-import RevolutionSlider from './RevolutionSlider';
+import RevolutionSlider from '../revolution/component/RevolutionSlider';
 import SpecialOffer from './SpecialOffer';
 import OurExperts from './OurExperts';
 import Gallery from './Gallery';
