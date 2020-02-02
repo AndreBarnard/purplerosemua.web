@@ -4,6 +4,31 @@
     background-color: $purple-dark;
 }
 
+.pr-text-primary {
+    color: $purple-dark;
+}
+
 .pr-display-center{
     display: table !important;
+}
+
+.pr-bdr-primary{
+    border-color: $purple-dark;
+}
+
+.pr-small-text {
+ font-size: x-small;
+}
+
+.pr-dialog {
+    border:1px solid black;
+}
+
+.pr-image {
+    width: 250px;
+    height: 250px !important;
+}
+
+.pr-logo-footer-round {
+    border-radius: 50%;
 }

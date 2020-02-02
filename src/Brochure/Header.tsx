@@ -2,9 +2,7 @@ import * as React from 'react';
 import logo from '../Images/PurpleRoseMUA_CapeTown_Makeup_Artist_Small.jpg';
 import '../styles/_header.scss';
 import '../styles/navigation.min.css';
-import {
-  Link,
-} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 export interface IAppProps {
 }

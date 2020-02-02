@@ -1,4 +1,5 @@
 import * as React from 'react';
+import {Link} from "react-router-dom";
 
 export interface IAppProps {
 }
@@ -17,7 +18,7 @@ function Copyright(props: {CompanyName : string;}) {
                 <ul className="copyrights-nav pull-right"> 
                     <li><a href="javascript:void(0);">Terms & Condition</a></li>
                     <li><a href="javascript:void(0);">Privacy Policy</a></li>
-                    <li><a href="contact-1.html">Contact Us</a></li>
+                    <li><Link to="/contact">Contact Us</Link></li>
                 </ul>
             </div>
         </div>

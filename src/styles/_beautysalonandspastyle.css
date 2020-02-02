@@ -5168,7 +5168,6 @@ transform: translateY(-50%);
 .widget_useful_links ul li:before,
 .widget_recent_entries  ul li:before,
 .widget_services ul li:before {
-	content:"\f105";
 	position: absolute;
 	left: 0;
 	top:10px;

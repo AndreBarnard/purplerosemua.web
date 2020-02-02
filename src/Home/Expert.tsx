@@ -24,9 +24,9 @@ function Expert(props:
             <h4 className="wt-team-title"><a href="javascript:void(0);">{props.expertName}</a></h4>
             <p>{props.expertTitle}</p>
             <ul className="social-icons social-square social-dark">
-                <li><a href={props.expertFacebookURL} target="_blank"><FontAwesomeIcon icon={faFacebook} /></a></li>
-                <li><a href={props.experYoutubeURL} target="_blank"><FontAwesomeIcon icon={faYoutube} /></a></li>
-                <li><a href={props.experInstagramURL} target="_blank"><FontAwesomeIcon icon={faInstagram} /></a></li>
+                <li><a href={props.expertFacebookURL} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} /></a></li>
+                <li><a href={props.experYoutubeURL} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faYoutube} /></a></li>
+                <li><a href={props.experInstagramURL} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} /></a></li>
             </ul>
         </div>
     </div>
