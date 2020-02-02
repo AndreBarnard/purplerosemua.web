@@ -16,6 +16,7 @@ import Contact from '../ContactUs/Contact';
 import BlogMain from '../Blog/BlogMain';
 import DupperWedding from '../Portfolio/Weddings/DupperWedding';
 import GeyerWedding from '../Portfolio/Weddings/GeyerWedding';
+import NeethlingWedding from '../Portfolio/Weddings/NeethlingWedding';
 
 export interface IAppProps {
 }
@@ -40,6 +41,10 @@ const routes = [
   {
     path: "/blog",
     component:  BlogMain
+  },
+  {
+    path: "/neethlingwedding",
+    component: NeethlingWedding    
   },
   {
     path: "/dupperwedding",

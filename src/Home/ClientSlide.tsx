@@ -27,6 +27,10 @@ function ClientSlide() {
             <ClientLinks 
             logo={require('../Images/client-logo/dyme2.png')} 
             url="https://www.dyme.co.za/" />  
+
+            <ClientLinks 
+            logo={require('../Images/client-logo/Dodgeball-SA.png')} 
+            url="http://www.dodgeballsa.com/wp/" />  
             
             </div>
         </div>

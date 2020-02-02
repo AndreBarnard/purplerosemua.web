@@ -58,8 +58,8 @@ function ComponentName() {
 
     style={{zIndex: 7, width: `100%`}}>
 
-    <Caption />
-    <SubCaption />
+    <Caption heading="Photoshoot Makeup"/>
+    <SubCaption heading="Take you photoghrapy to the next level."/>
 
         </div>
     </div>

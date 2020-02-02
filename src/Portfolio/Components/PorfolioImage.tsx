@@ -6,8 +6,12 @@ export interface IAppProps {
 function PorfolioImage(props : 
     {img : string,
     heading: string,
-    desc: string}) {
-    return <div className="masonry-item cat-1 col-lg-4 col-md-6 col-sm-6">
+    desc: string,
+    category : string}) {
+   
+    const categoryClass = "masonry-item col-lg-4 col-md-6 col-sm-6 " + props.category;
+
+    return <div className={categoryClass}>
     <div className="wt-box">
         <div className="wt-thum-bx wt-img-overlay2 wt-img-effect zoom">
             <img src={props.img} alt="" />
@@ -15,8 +19,7 @@ function PorfolioImage(props :
               <div className="wt-info p-tb10">
                 <h4 className="m-a0">{props.heading}</h4>
               </div>
-    <div className="wt-info-has-text">{props.desc}</div>
-              <a href="javascript:void(0);" className="site-button ">More  <i className="fa fa-angle-double-right"></i></a>
+              <div className="wt-info-has-text">{props.desc}</div>
             </div>
          </div>
     </div>

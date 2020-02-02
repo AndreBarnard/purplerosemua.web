@@ -3,7 +3,7 @@ import * as React from 'react';
 export interface IAppProps {
 }
 
-function Caption() {
+function Caption(props : {heading : string}) {
 
     return <div className="tp-caption   tp-resizeme" 
     id="slide-407-layer-1" 
@@ -32,7 +32,7 @@ function Caption() {
    data-paddingleft="[0,0,40,40]"
 
    style={{zIndex: 8, whiteSpace: `nowrap`, fontSize: `110px`, lineHeight: `100px`, fontWeight: 600,
-   color: `rgba(255, 255, 255, 1.00)`, display: `inline-block`, fontFamily:`Poppins`, letterSpacing:`-5px`}}>Beauty Spa </div>
+   color: `rgba(255, 255, 255, 1.00)`, display: `inline-block`, fontFamily:`Poppins`, letterSpacing:`-5px`}}>{props.heading}</div>
 }
 
 

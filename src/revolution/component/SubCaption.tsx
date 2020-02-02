@@ -3,7 +3,7 @@ import * as React from 'react';
 export interface IAppProps {
 }
 
-function SubCaption() {
+function SubCaption(props : {heading : string}) {
 
     return <div className="tp-caption   tp-resizeme" 
     id="slide-407-layer-2" 
@@ -32,7 +32,7 @@ function SubCaption() {
    data-paddingleft="[0,0,0,0]"
 
    style={{zIndex: 9, whiteSpace: `normal`, fontSize: `30px`, lineHeight: `40px`, fontWeight: 300,
-   color: `rgba(255, 255, 255, 1.00)`, display: `block`, fontFamily:`Poppins`}}>Dummy text is text that is used in the publishing.</div>
+color: `rgba(255, 255, 255, 1.00)`, display: `block`, fontFamily:`Poppins`}}>{props.heading}</div>
 }
 
 
