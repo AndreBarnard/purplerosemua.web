@@ -5,7 +5,7 @@ import OurExperts from './OurExperts';
 import Gallery from './Gallery';
 import LatestNews from './LatestNews';
 import ContactUs from './ContactUs';
-import Services from './Services';
+import Services from './Services/Services';
 import ClientSlide from './ClientSlide';
 
 export interface IAppProps {
