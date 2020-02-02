@@ -17,6 +17,7 @@ import BlogMain from '../Blog/BlogMain';
 import DupperWedding from '../Portfolio/Weddings/DupperWedding';
 import GeyerWedding from '../Portfolio/Weddings/GeyerWedding';
 import NeethlingWedding from '../Portfolio/Weddings/NeethlingWedding';
+import RougeRevue from '../Portfolio/Stage/RougeRevue';
 
 export interface IAppProps {
 }
@@ -41,6 +42,10 @@ const routes = [
   {
     path: "/blog",
     component:  BlogMain
+  },
+  {
+    path: "/therougerevue",
+    component: RougeRevue    
   },
   {
     path: "/neethlingwedding",
