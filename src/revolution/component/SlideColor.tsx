@@ -1,12 +1,15 @@
 import * as React from 'react';
 
-export interface IAppProps {
+export interface IProps {
+    id : string
 }
 
-function SlideColor() {
+function SlideColor(props : IProps) {
+
+    const slideId = "slide-"+ props.id +"-layer-16";
 
     return <div className="tp-caption tp-shape tp-shapewrapper " 
-    id="slide-407-layer-16" 
+    id={slideId}
     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
     data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" 
     data-width="full"

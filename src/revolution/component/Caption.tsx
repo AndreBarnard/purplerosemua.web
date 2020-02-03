@@ -1,12 +1,16 @@
 import * as React from 'react';
 
-export interface IAppProps {
+export interface IProps {
+    id : string
+    heading : string
 }
 
-function Caption(props : {heading : string}) {
+function Caption(props : IProps) {
+
+    const slideId = "slide-"+ props.id +"-layer-1";
 
     return <div className="tp-caption   tp-resizeme" 
-    id="slide-407-layer-1" 
+    id={slideId}
     data-x="['left','left','center','center']" data-hoffset="['0','0','0','0']" 
     data-y="['top','top','top','top']" data-voffset="['0','0','230','110']" 
                data-fontsize="['110','90','100','70']"

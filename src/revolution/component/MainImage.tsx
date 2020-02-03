@@ -1,11 +1,12 @@
 import * as React from 'react';
 
-export interface IAppProps {
+export interface IProps {
+    img : string
 }
 
-function MainImage() {
+function MainImage(props : IProps) {
 
-    return <img src={require('../../Images/main-slider/slider5/slide1.jpg')}  
+    return <img src={props.img}  
     alt=""  
     data-bgposition="center center" 
     data-kenburns="on" 

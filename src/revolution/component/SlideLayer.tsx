@@ -2,13 +2,18 @@ import * as React from 'react';
 import Caption from './Caption';
 import SubCaption from './SubCaption';
 
-export interface IAppProps {
+export interface IProps {
+    id : string
+    heading : string
+    subheading : string
 }
 
-function ComponentName() {
+function ComponentName(props : IProps) {
+
+    const slideId = "slide-"+ props.id +"-layer-14";
 
     return <div className="tp-caption  " 
-    id="slide-407-layer-14" 
+    id={slideId}
     data-x="['left','left','left','left']" data-hoffset="['100','100','100','100']" 
     data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" 
     data-width="none"
@@ -58,8 +63,8 @@ function ComponentName() {
 
     style={{zIndex: 7, width: `100%`}}>
 
-    <Caption heading="Photoshoot Makeup"/>
-    <SubCaption heading="Take you photoghrapy to the next level."/>
+    <Caption id={props.id} heading={props.heading}/>
+    <SubCaption id={props.id} heading={props.subheading}/>
 
         </div>
     </div>
