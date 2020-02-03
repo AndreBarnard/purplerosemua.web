@@ -39,24 +39,20 @@ export default class Header extends React.Component<IAppProps> {
 												<ul className="nav-dropdown">
 												<li><Link to="/neethlingwedding">Neethling Wedding</Link></li>
 												<li><Link to="/geyerwedding">Geyer Wedding</Link></li>
-												<li><Link to="/dupperwedding">Dupper Wedding</Link></li>													
-												<li><Link to="/portfolio">Wedding 2</Link></li>
+												{/* <li><Link to="/dupperwedding">Dupper Wedding</Link></li> */}
 												</ul>
 											</li>
 											<li><a href="">Photoshoots</a>
 												<ul className="nav-dropdown">
-												<li><Link to="/portfolio">portfolio filtering</Link></li>
-												<li><Link to="/portfolio">portfolio 3d filtering</Link></li>
-												<li><Link to="/portfolio">portfolio out filtering</Link></li>
-												<li><Link to="/portfolio">portfolio 3d out filtering</Link></li>
+												<li><Link to="/portfolio">Black Lips</Link></li>
+												<li><Link to="/portfolio">Winter Shoot</Link></li>
+												<li><Link to="/portfolio">Skin</Link></li>
+												<li><Link to="/portfolio">Society Vs Reality</Link></li>
 												</ul>
 											</li>
 											<li><a href="">Make-up Stars</a>
 												<ul className="nav-dropdown">
-												<li><Link to="/portfolio">portfolio filtering</Link></li>
-												<li><Link to="/portfolio">portfolio 3d filtering</Link></li>
-												<li><Link to="/portfolio">portfolio out filtering</Link></li>
-												<li><Link to="/portfolio">portfolio 3d out filtering</Link></li>
+												<li><Link to="/portfolio">Workshops</Link></li>
 												</ul>
 											</li>
 											<li><a href="">Make-up Looks</a>

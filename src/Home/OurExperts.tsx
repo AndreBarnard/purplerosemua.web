@@ -14,7 +14,7 @@ function OurExperts() {
         <Title 
         titleSpan="Our" 
         titleH2="Experts" 
-        paragraph="Some text about purple rose experts" />
+        paragraph="Get to meet our team of talented people" />
         <div className="section-content wt-our-team">
             <div className="row">
                 <Expert 

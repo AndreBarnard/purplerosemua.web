@@ -13,11 +13,11 @@ function RevolutionSlider() {
     data-alias="snowaddon1" data-source="gallery" style={{backgroundColor: `#2d3032`, padding:`0px`}}>
             <div id="rev_slider_149_1" className="rev_slider fullscreenbanner" style={{display:`none`}} data-version="5.4.1">
                 <ul>	
-                    <Slide 
+                    {/* <Slide 
                     id="407" 
                     img={require('../../Images/main-slider/slider5/slide1.jpg')}
                     heading="Happily ever after"
-                    subheading="Where happiness is just a phone call away"/>
+                    subheading="Where happiness is just a phone call away"/> */}
 
                     <Slide 
                     id="408" 

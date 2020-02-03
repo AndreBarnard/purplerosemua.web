@@ -12,7 +12,7 @@ function Gallery() {
     <Title 
         titleSpan="Our" 
         titleH2="Gallery" 
-        paragraph="Some text about Purple rose gallary" />
+        paragraph="Spectate in some of our work in the past" />
                                  
          {/* <!-- PAGINATION START --> */}
         <div className="filter-wrap p-a15 our-gallery  m-tb30">
