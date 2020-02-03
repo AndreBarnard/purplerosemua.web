@@ -23,5 +23,4 @@ function MainImage(props : IProps) {
     data-no-retina/>
 }
 
-
 export default MainImage
