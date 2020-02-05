@@ -1,6 +1,10 @@
 import * as React from 'react';
-import Underconstruction from '../Brochure/Underconstruction';
-import AboutContent from './AboutContent';
+import PageBanner from '../Components/Site/PageBanner';
+import Breadcrumb from '../Components/Site/Breadcrumb';
+import CompanySection from './CompanySection';
+import CounterSection from './CounterSection';
+import BestServicesSection from './BestServicesSection';
+import TeamSection from './TeamSection';
 
 export interface IAppProps {
 }
@@ -8,7 +12,17 @@ export interface IAppProps {
 export default class About extends React.Component<IAppProps> {
   public render() {
     return (     
-        <AboutContent />
+      <div className="page-content">     
+      <PageBanner 
+      img={require("../Images/banner/about-banner.jpg")}
+      heading="About"
+      />
+      <Breadcrumb heading="About" /> 
+      <CompanySection />
+      <CounterSection />
+      <BestServicesSection />
+      <TeamSection />                    
+  </div>
     );
   }
 }

@@ -1,6 +1,7 @@
 import * as React from 'react';
 import AboutInfo from './AboutInfo';
 import ServiceType from './ServiceType';
+import Title from '../Components/Site/Title';
 
 export interface IProps {}
 

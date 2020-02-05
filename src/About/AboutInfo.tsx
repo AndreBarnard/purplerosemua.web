@@ -12,8 +12,8 @@ function AboutInfo(props : IProps) {
                     <div className="wt-separator-outer">
                         <div className="wt-separator style-icon">
                             <i className="fa fa-leaf text-black"></i>
-                            <span className="separator-left bg-primary"></span>
-                            <span className="separator-right bg-primary"></span>
+                            <span className="separator-left pr-bg-color"></span>
+                            <span className="separator-right pr-bg-color"></span>
                         </div>                            
                     </div>
                     <p>{props.p1}</p>

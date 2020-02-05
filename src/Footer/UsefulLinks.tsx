@@ -14,11 +14,11 @@ function UsefulLinks() {
         <FooterSectionHeading heading="Useful links" />
         <ul>
             <li><FontAwesomeIcon icon={faAngleRight}/><Link to="/about"> About</Link></li>
-            <li><FontAwesomeIcon icon={faAngleRight}/><a href="faq-1.html"> FAQ</a></li>
-            <li><FontAwesomeIcon icon={faAngleRight}/><a href="career.html"> Career</a></li>
-            <li><FontAwesomeIcon icon={faAngleRight}/><a href="our-team.html"> Our Team</a></li>
-            <li><FontAwesomeIcon icon={faAngleRight}/><a href="services.html"> Services</a></li>
-            <li><FontAwesomeIcon icon={faAngleRight}/><a href="gallery-grid-1.html"> Gallery</a></li>
+            <li><FontAwesomeIcon icon={faAngleRight}/><Link to="/services"> Services</Link></li>
+            <li><FontAwesomeIcon icon={faAngleRight}/><Link to="/portfolio"> Portfolio</Link></li>
+            <li><FontAwesomeIcon icon={faAngleRight}/><Link to="/about"> Our Team</Link></li>
+            <li><FontAwesomeIcon icon={faAngleRight}/><Link to="/blog"> Blog</Link></li>
+            <li><FontAwesomeIcon icon={faAngleRight}/><Link to="/contact"> Contact</Link></li>
         </ul>
     </div>
 </div>

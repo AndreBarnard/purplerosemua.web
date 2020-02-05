@@ -3,6 +3,7 @@ import * as React from 'react';
 export interface IProps {
     heading : string   
     paragraph? : string 
+    paragraphTwo? : string 
 }
 
 function Title(props : IProps) {
@@ -14,6 +15,7 @@ function Title(props : IProps) {
         <span className="separator-right pr-bg-color"></span>
     </div>  
     <p>{props.paragraph}</p>
+    <p>{props.paragraphTwo}</p>
 </div>
 }
 
