@@ -17,6 +17,7 @@ export interface IProps {
     twitterURL? : string
     linkedinURL? : string
     webURL? : string
+    soundCloudURL? : string
 }
 
 function PostVideo(props : IProps) {
@@ -41,6 +42,7 @@ function PostVideo(props : IProps) {
     twitterURL={props.twitterURL}
     linkedinURL={props.linkedinURL}
     webURL={props.webURL}
+    soundCloudURL={props.soundCloudURL}
     />    
 </div>
 }

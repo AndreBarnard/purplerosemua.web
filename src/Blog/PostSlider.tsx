@@ -1,11 +1,8 @@
 import * as React from 'react';
-import PostInfo from './PostInfo'
+import PostInfo from './PostInfo';
 
 export interface IProps {
-    video : string
-    videoTitle : string
-    videoWidth? : string
-    videoheight? : string
+    children : any
     postTitle : string
     postDate : string
     postDateYear : string
@@ -19,15 +16,14 @@ export interface IProps {
     webURL? : string
 }
 
-function PostSlider(props : IProps) {
-
-    const videoWidth = props.videoWidth || "560";
-    const videoheight = props.videoheight || "315";
+function PostSlider(this: any, props : IProps) {
 
     return <div className="blog-post blog-lg date-style-1">
             
     <div className="wt-post-media">
-        <iframe width={videoWidth} height={videoheight} src={props.video} title={props.videoTitle}></iframe>
+        <div className="owl-carousel owl-fade-slider-one owl-btn-vertical-center owl-dots-bottom-right">    
+            {props.children}
+        </div>
     </div>
     <PostInfo
     postTitle={props.postTitle}

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faInstagram, faYoutube, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faInstagram, faYoutube, faTwitter, faLinkedin, faSoundcloud } from '@fortawesome/free-brands-svg-icons'
 import {IconProp } from '@fortawesome/fontawesome-svg-core'
 
 export interface IProps {
@@ -10,6 +10,7 @@ export interface IProps {
     twitterURL? : string
     linkedinURL? : string
     webURL? : string
+    soundCloudURL? : string
 }
 
 function BlogSocalMedia(props : IProps) {
@@ -19,6 +20,7 @@ function BlogSocalMedia(props : IProps) {
     const youtubeLink =  props.youtubeURL || "";
     const twitterLink =  props.twitterURL || "";
     const linkedinLink =  props.linkedinURL || "";
+    const soundCloudURL =  props.soundCloudURL || "";
 
     const renderSocialLink = (url : string, icon : IconProp,) => {
         let result : any = ""
@@ -36,6 +38,7 @@ function BlogSocalMedia(props : IProps) {
                     {renderSocialLink(linkedinLink,faLinkedin)}
                     {renderSocialLink(youtubeLink,faYoutube)}
                     {renderSocialLink(instagramLink,faInstagram)}
+                    {renderSocialLink(soundCloudURL,faSoundcloud)}
                 </ul>
             </div>
 }
