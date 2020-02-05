@@ -2,6 +2,7 @@ import * as React from 'react';
 import PageBanner from '../Components/Site/PageBanner';
 import Breadcrum from '../Components/Site/Breadcrumb';
 import PostVideo from './PostVideo';
+import PostImage from './PostImage';
 
 export interface IAppProps {
 }
@@ -23,7 +24,7 @@ function BlogContent() {
                 <div className="col-md-9">
                 
                     <PostVideo
-                    video="https://www.youtube.com/embed/de9Mhw2dU60"
+                    video="https://www.youtube.com/embed/85YlXg9LUYw"
                     videoTitle="Blogpost With Youtube"
                     postTitle="Blogpost With Youtube"
                     postDate="1 Feb"
@@ -104,126 +105,14 @@ function BlogContent() {
                         </div>
                         
                     </div>
-                    {/* <!-- COLUMNS 4 --> */}
-                    <div className="blog-post blog-lg date-style-1">
-            
-                        <div className="wt-post-media wt-img-effect zoom-slow">
-                            <a href="javascript:void(0);"><img src="images/blog/default/thum4.jpg" alt="" /></a>
-                        </div>
-                        <div className="wt-post-info p-tb30 p-m30 bg-white">
-                                
-                            <div className="wt-post-title ">
-                                <h3 className="post-title"><a href="javascript:void(0);">Blogpost With Image</a></h3>
-                            </div>
-                            <div className="wt-post-meta ">
-                                <ul>
-                                <li className="post-date"> <i className="fa fa-calendar"></i><strong>20 Dec</strong> <span> 2017</span> </li>
-                                <li className="post-author"><i className="fa fa-user"></i><a href="javascript:void(0);">By <span>John</span></a> </li>
-                                <li className="post-comment"><i className="fa fa-comments"></i> <a href="javascript:void(0);">0 Comments</a> </li>
-                              </ul>
-                            </div>
-                            <div className="wt-post-text">
-                                <p>Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam esse beatae hic perferendis velit deserunt soluta iste repellendus officia in neque veniam debitis</p> 
-                            </div>
-                            <div className="clearfix">
-                            <div className="wt-post-readmore pull-left">
-                                 <a href="javascript:void(0);" title="READ MORE" rel="bookmark" className="site-button-link">Read More</a>
-                            </div>
-                            <div className="widget_social_inks pull-right">
-                                <ul className="social-icons social-radius social-dark m-b0">
-                                    <li><a href="javascript:void(0);" className="fa fa-facebook"></a></li>
-                                    <li><a href="javascript:void(0);" className="fa fa-twitter"></a></li>
-                                    <li><a href="javascript:void(0);" className="fa fa-rss"></a></li>
-                                    <li><a href="javascript:void(0);" className="fa fa-youtube"></a></li>
-                                    <li><a href="javascript:void(0);" className="fa fa-instagram"></a></li>
-                                </ul>
-                           </div>
-                        </div>
-                            
-                            
-                        </div>
-                        
-                    </div>
-                    {/* <!-- COLUMNS 5 --> */}
-                    <div className="blog-post blog-lg date-style-1">
-            
-                        <div className="wt-post-media wt-img-effect zoom-slow">
-                            <a href="javascript:void(0);"><img src="images/blog/default/thum5.jpg" alt="" /></a>
-                        </div>
-                        <div className="wt-post-info p-tb30 p-m30 bg-white">
-                                
-                            <div className="wt-post-title ">
-                                <h3 className="post-title"><a href="javascript:void(0);">Blogpost With Image</a></h3>
-                            </div>
-                            <div className="wt-post-meta ">
-                              <ul>
-                                <li className="post-date"> <i className="fa fa-calendar"></i><strong>20 Dec</strong> <span> 2017</span> </li>
-                                <li className="post-author"><i className="fa fa-user"></i><a href="javascript:void(0);">By <span>John</span></a> </li>
-                                <li className="post-comment"><i className="fa fa-comments"></i> <a href="javascript:void(0);">0 Comments</a> </li>
-                              </ul>
-                            </div>
-                            <div className="wt-post-text">
-                                <p>Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam esse beatae hic perferendis velit deserunt soluta iste repellendus officia in neque veniam debitis</p> 
-                            </div>
-                            <div className="clearfix">
-                            <div className="wt-post-readmore pull-left">
-                                 <a href="javascript:void(0);" title="READ MORE" rel="bookmark" className="site-button-link">Read More</a>
-                            </div>
-                            <div className="widget_social_inks pull-right">
-                                <ul className="social-icons social-radius social-dark m-b0">
-                                    <li><a href="javascript:void(0);" className="fa fa-facebook"></a></li>
-                                    <li><a href="javascript:void(0);" className="fa fa-twitter"></a></li>
-                                    <li><a href="javascript:void(0);" className="fa fa-rss"></a></li>
-                                    <li><a href="javascript:void(0);" className="fa fa-youtube"></a></li>
-                                    <li><a href="javascript:void(0);" className="fa fa-instagram"></a></li>
-                                </ul>
-                           </div>
-                        </div>
-                            
-                            
-                        </div>
-                        
-                    </div>
-                    {/* <!-- COLUMNS 6 --> */}
-                    <div className="blog-post blog-lg date-style-1">
-            
-                        <div className="wt-post-media wt-img-effect zoom-slow">
-                            <a href="javascript:void(0);"><img src="images/blog/default/thum6.jpg" alt="" /></a>
-                        </div>
-                        <div className="wt-post-info p-tb30 p-m30 bg-white">
-                                
-                            <div className="wt-post-title ">
-                                <h3 className="post-title"><a href="javascript:void(0);">Blogpost With Image</a></h3>
-                            </div>
-                            <div className="wt-post-meta ">
-                              <ul>
-                                <li className="post-date"> <i className="fa fa-calendar"></i><strong>20 Dec</strong> <span> 2017</span> </li>
-                                <li className="post-author"><i className="fa fa-user"></i><a href="javascript:void(0);">By <span>John</span></a> </li>
-                                <li className="post-comment"><i className="fa fa-comments"></i> <a href="javascript:void(0);">0 Comments</a> </li>
-                              </ul>
-                            </div>
-                            <div className="wt-post-text">
-                                <p>Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam esse beatae hic perferendis velit deserunt soluta iste repellendus officia in neque veniam debitis</p> 
-                            </div>
-                            <div className="clearfix">
-                            <div className="wt-post-readmore pull-left">
-                                 <a href="javascript:void(0);" title="READ MORE" rel="bookmark" className="site-button-link">Read More</a>
-                            </div>
-                            <div className="widget_social_inks pull-right">
-                                <ul className="social-icons social-radius social-dark m-b0">
-                                    <li><a href="javascript:void(0);" className="fa fa-facebook"></a></li>
-                                    <li><a href="javascript:void(0);" className="fa fa-twitter"></a></li>
-                                    <li><a href="javascript:void(0);" className="fa fa-rss"></a></li>
-                                    <li><a href="javascript:void(0);" className="fa fa-youtube"></a></li>
-                                    <li><a href="javascript:void(0);" className="fa fa-instagram"></a></li>
-                                </ul>
-                           </div>
-                        </div>
-                            
-                            
-                        </div>
-                        
-                    </div>
+                    <PostImage
+                    img={require("../Images/blog/default/thum1.jpg")}
+                    postTitle="Blogpost With Img"
+                    postDate="1 Feb"
+                    postDateYear="2020"
+                    author="Jeanerien Barnard"
+                    postText="Some Text"
+                    />
                     
                     {/* <!-- PAGINATION START --> */}
                     <div className="pagination-bx clearfix ">
