@@ -1,5 +1,7 @@
 import * as React from 'react';
-import Underconstruction from '../Brochure/Underconstruction';
+import PageBanner from '../Components/Site/PageBanner';
+import Breadcrum from '../Components/Site/Breadcrumb';
+import PostVideo from './PostVideo';
 
 export interface IAppProps {
 }
@@ -7,118 +9,39 @@ export interface IAppProps {
 function BlogContent() {
 
     return <div className="page-content">
-        
-    {/* <!-- INNER PAGE BANNER --> */}
-    <div className="wt-bnr-inr overlay-wraper" style={{backgroundImage:`url(images/banner/blog-banner.jpg)`}}>
-        <div className="overlay-main bg-black opacity-07"></div>
-        <div className="container">
-            <div className="wt-bnr-inr-entry">
-                <h1 className="text-white">Blog large image with sidebar</h1>
-            </div>
-        </div>
-    </div>
-    {/* <!-- INNER PAGE BANNER END --> */}
-    
-    {/* <!-- BREADCRUMB ROW -->                             */}
-    <div className="bg-gray-light p-tb20">
-        <div className="container">
-            <ul className="wt-breadcrumb breadcrumb-style-2">
-                <li><a href="javascript:void(0);"><i className="fa fa-home"></i> Home</a></li>
-                <li>Blog large image with sidebar</li>
-            </ul>
-        </div>
-    </div>
-    {/* <!-- BREADCRUMB ROW END -->  */}
-    
+
+                <PageBanner img={require("../Images/banner/blog-banner.jpg")}
+                heading="Blog"
+                />
+                <Breadcrum heading="Blog"/>
+            
     {/* <!-- SECTION CONTENT START -->                   */}
     <div className="section-full p-t80 p-b50">
         <div className="container">
             <div className="row">
             
-                {/* <!-- LEFT PART START --> */}
                 <div className="col-md-9">
                 
-                    {/* <!-- COLUMNS 1 --> */}
-                    <div className="blog-post blog-lg date-style-1">
-            
-                        <div className="wt-post-media">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/de9Mhw2dU60"></iframe>
+                    <PostVideo
+                    video="https://www.youtube.com/embed/de9Mhw2dU60"
+                    videoTitle="Blogpost With Youtube"
+                    postTitle="Blogpost With Youtube"
+                    postDate="1 Feb"
+                    postDateYear="2020"
+                    author="Jeanerien Barnard"
+                    postText="Some Text"
+                    />
 
-                        </div>
-                        <div className="wt-post-info p-tb30 p-m30 bg-white">
-                                
-                            <div className="wt-post-title ">
-                                <h3 className="post-title"><a href="javascript:void(0);">Blogpost With Youtube</a></h3>
-                            </div>
-                            <div className="wt-post-meta ">
-                                <ul>
-                                <li className="post-date"> <i className="fa fa-calendar"></i><strong>20 Dec</strong> <span> 2017</span> </li>
-                                <li className="post-author"><i className="fa fa-user"></i><a href="javascript:void(0);">By <span>John</span></a> </li>
-                                <li className="post-comment"><i className="fa fa-comments"></i> <a href="javascript:void(0);">0 Comments</a> </li>
-                              </ul>
-                            </div>
-                            <div className="wt-post-text">
-                                <p>Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam esse beatae hic perferendis velit deserunt soluta iste repellendus officia in neque veniam debitis</p> 
-                            </div>
-                            <div className="clearfix">
-                            <div className="wt-post-readmore pull-left">
-                                 <a href="javascript:void(0);" title="READ MORE" rel="bookmark" className="site-button-link">Read More</a>
-                            </div>
-                            <div className="widget_social_inks pull-right">
-                                <ul className="social-icons social-radius social-dark m-b0">
-                                    <li><a href="javascript:void(0);" className="fa fa-facebook"></a></li>
-                                    <li><a href="javascript:void(0);" className="fa fa-twitter"></a></li>
-                                    <li><a href="javascript:void(0);" className="fa fa-rss"></a></li>
-                                    <li><a href="javascript:void(0);" className="fa fa-youtube"></a></li>
-                                    <li><a href="javascript:void(0);" className="fa fa-instagram"></a></li>
-                                </ul>
-                           </div>
-                        </div>
-                            
-                            
-                        </div>
-                        
-                    </div>
-                    {/* <!-- COLUMNS 2 --> */}
-                    <div className="blog-post blog-lg date-style-1">
-            
-                        <div className="wt-post-media">
-                            <iframe src="https://player.vimeo.com/video/23534361" width="1000" height="563" ></iframe>
-                        </div>
-                        <div className="wt-post-info p-tb30 p-m30 bg-white">
-                                
-                            <div className="wt-post-title ">
-                                <h3 className="post-title"><a href="javascript:void(0);">Blogpost With Vimeo Video</a></h3>
-                            </div>
-                            <div className="wt-post-meta ">
-                                <ul>
-                                <li className="post-date"> <i className="fa fa-calendar"></i><strong>20 Dec</strong> <span> 2017</span> </li>
-                                <li className="post-author"><i className="fa fa-user"></i><a href="javascript:void(0);">By <span>John</span></a> </li>
-                                <li className="post-comment"><i className="fa fa-comments"></i> <a href="javascript:void(0);">0 Comments</a> </li>
-                              </ul>
-                            </div>
-                            <div className="wt-post-text">
-                                <p>Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam esse beatae hic perferendis velit deserunt soluta iste repellendus officia in neque veniam debitis</p> 
-                            </div>
-                            <div className="clearfix">
-                            <div className="wt-post-readmore pull-left">
-                                 <a href="javascript:void(0);" title="READ MORE" rel="bookmark" className="site-button-link">Read More</a>
-                            </div>
-                            <div className="widget_social_inks pull-right">
-                                <ul className="social-icons social-radius social-dark m-b0">
-                                    <li><a href="javascript:void(0);" className="fa fa-facebook"></a></li>
-                                    <li><a href="javascript:void(0);" className="fa fa-twitter"></a></li>
-                                    <li><a href="javascript:void(0);" className="fa fa-rss"></a></li>
-                                    <li><a href="javascript:void(0);" className="fa fa-youtube"></a></li>
-                                    <li><a href="javascript:void(0);" className="fa fa-instagram"></a></li>
-                                </ul>
-                           </div>
-                        </div>
-                            
-                            
-                        </div>
-                        
-                    </div>
+                    <PostVideo
+                    video="https://www.youtube.com/embed/de9Mhw2dU60"
+                    videoTitle="Blogpost With Youtube"
+                    postTitle="Blogpost With Youtube"
+                    postDate="1 Feb"
+                    postDateYear="2020"
+                    author="Jeanerien Barnard"
+                    postText="Some Text"
+                    />
+
                     {/* <!-- COLUMNS 3 --> */}
                     <div className="blog-post blog-lg date-style-1">
             

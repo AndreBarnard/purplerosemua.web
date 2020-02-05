@@ -16,10 +16,10 @@ export default class Home extends React.Component<IAppProps> {
     return (
       <div className="page-content">
         <RevolutionSlider />
-        {/* <SpecialOffer /> */}
-        {/* <Services /> */}
+        <SpecialOffer />
+        <Services />
         <Gallery />
-        {/* <ContactUs /> */}
+        <ContactUs />
         <OurExperts />
         <LatestNews />
         <ClientSlide />

@@ -61,7 +61,7 @@ const routes = [
     component: GeyerWedding
   },
   {
-    parth: "/servicedetail",
+    path: "/servicedetail",
     component: ServicesContent
   },
   {
