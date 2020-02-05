@@ -18,6 +18,7 @@ import DupperWedding from '../Portfolio/Weddings/DupperWedding';
 import GeyerWedding from '../Portfolio/Weddings/GeyerWedding';
 import NeethlingWedding from '../Portfolio/Weddings/NeethlingWedding';
 import RougeRevue from '../Portfolio/Stage/RougeRevue';
+import ServicesContent from '../Service/ServicesContent';
 
 export interface IAppProps {
 }
@@ -58,6 +59,10 @@ const routes = [
   {
     path: "/geyerwedding",
     component: GeyerWedding
+  },
+  {
+    parth: "/servicedetail",
+    component: ServicesContent
   },
   {
     path: "/",
