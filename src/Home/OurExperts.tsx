@@ -2,6 +2,7 @@ import * as React from 'react';
 import Expert from './Expert';
 import jeanerienImg from '../Images/OurTeam/PurleRoseMua_JeanerienBarnard.jpg'
 import irenaImg from '../Images/OurTeam/IrinaGrant.jpg'
+import andreImg from '../Images/OurTeam/AndreBarnard.jpg'
 import Title from './Title';
 
 export interface IAppProps {
@@ -33,6 +34,15 @@ function OurExperts() {
                 expertFacebookURL="https://www.facebook.com/Make-up-Stars-Cape-Town-338523172898000/"
                 experInstagramURL="https://www.instagram.com/irina_grant_makeupartist/"
                 experYoutubeURL="https://www.youtube.com/user/jeanerieng"
+                />
+
+                <Expert 
+                expertImg={andreImg}
+                expertName="Andre Barnard"
+                expertTitle="That IT Guy"
+                expertFacebookURL="https://www.facebook.com/andrebarn/"
+                experInstagramURL="https://www.instagram.com/barnard637/"
+                experYoutubeURL="https://www.youtube.com/channel/UCCZ8_pfwOPKWCmK8QPaS3jQ?view_as=subscriber"
                 />
                 
             </div>
