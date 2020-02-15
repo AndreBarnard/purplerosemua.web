@@ -19,6 +19,10 @@ import GeyerWedding from '../Portfolio/Weddings/GeyerWedding';
 import NeethlingWedding from '../Portfolio/Weddings/NeethlingWedding';
 import RougeRevue from '../Portfolio/Stage/RougeRevue';
 import ServicesContent from '../Service/ServicesContent';
+import BlackLips from '../Portfolio/Photoshoots/BlackLips';
+import Winter from '../Portfolio/Photoshoots/Winter';
+import Skin from '../Portfolio/Photoshoots/Skin';
+import SocietyVsReality from '../Portfolio/Photoshoots/SocietyVsReality';
 
 export interface IAppProps {
 }
@@ -59,6 +63,22 @@ const routes = [
   {
     path: "/geyerwedding",
     component: GeyerWedding
+  },
+  {
+    path: "/blacklips",
+    component: BlackLips
+  },
+  {
+    path: "/winter",
+    component: Winter
+  },
+  {
+    path: "/skin",
+    component: Skin
+  },
+  {
+    path: "/societyvsreality",
+    component: SocietyVsReality
   },
   {
     path: "/servicedetail",

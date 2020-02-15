@@ -44,10 +44,10 @@ export default class Header extends React.Component<IAppProps> {
 											</li>
 											<li><a href="">Photoshoots</a>
 												<ul className="nav-dropdown">
-												<li><Link to="/portfolio">Black Lips</Link></li>
-												<li><Link to="/portfolio">Winter Shoot</Link></li>
-												<li><Link to="/portfolio">Skin</Link></li>
-												<li><Link to="/portfolio">Society Vs Reality</Link></li>
+												<li><Link to="/blacklips">Black Lips</Link></li>
+												<li><Link to="/winter">Winter Shoot</Link></li>
+												<li><Link to="/skin">Skin</Link></li>
+												<li><Link to="/societyvsreality">Society Vs Reality</Link></li>
 												</ul>
 											</li>
 											<li><a href="">Make-up Stars</a>
