@@ -39,7 +39,7 @@ export default class Header extends React.Component<IAppProps> {
 												<ul className="nav-dropdown">
 												<li><Link to="/neethlingwedding">Neethling Wedding</Link></li>
 												<li><Link to="/geyerwedding">Geyer Wedding</Link></li>
-												{/* <li><Link to="/dupperwedding">Dupper Wedding</Link></li> */}
+												<li><Link to="/dupperwedding">Dupper Wedding</Link></li>
 												</ul>
 											</li>
 											<li><a href="">Photoshoots</a>
