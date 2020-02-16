@@ -10,12 +10,12 @@ function CounterSection(props : IProps) {
         <div className="section-content">
             <div className="row">     
                 <CounterBlock 
-                count={100}
+                count={50}
                 heading="HAPPY CLIENTS"
                 fontAwesome="fa fa-users"
                 />
                 <CounterBlock 
-                count={100}
+                count={50}
                 heading="JOBS DONE"
                 fontAwesome="fa fa-building"
                 />
@@ -27,7 +27,7 @@ function CounterSection(props : IProps) {
                 <CounterBlock 
                 count={1}
                 heading="AWARDS WON"
-                fontAwesome="fa fa-user-plus"
+                fontAwesome="fa fa-trophy"
                 /> 
             </div>
         </div>

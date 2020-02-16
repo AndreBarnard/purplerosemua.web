@@ -15,33 +15,34 @@ function CompanySection() {
                 </div>
             </div>
             <AboutInfo 
-            p1="Purple Rose MUA was founded in 2012, we are a Cape Town, based professional makeup artistry. We take great pride in our work ethic and professionalism to deliver a unique experience for every client."
-            p2="Some text about company"
+            p1="Purple Rose MUA was founded in 2012, we are a Cape Town based professional makeup artistry. We take great pride in our work ethic and professionalism to deliver a unique experience for every client."
+            p2="At Purple Rose MUA we are truly passionate about makeup and feels so blessed to be given the honour of sharing in your important days and giving you the confident to enjoy your event. "
             />
             <div className="col-md-7 col-sm-12 col-xs-12">
                 <div className="about-types row">
-                    <ServiceType
-                    flaticon="flaticon-female-hairs"
-                    heading="Waxing"
-                    desc="Text about service"
-                    />
 
                     <ServiceType
                     flaticon="flaticon-eye"
                     heading="Makeup"
-                    desc="Text about service"
+                    desc="Makeup is where our passion lies and we specialis in Bridal, Fashion and Special Effects"
                     />
 
                     <ServiceType
+                    flaticon="flaticon-people"
+                    heading="Waxing"
+                    desc="We provide a wide variety of waxing services see service page for more information"
+                    />                   
+
+                    <ServiceType
                     flaticon="flaticon-mirror"
-                    heading="Facial"
-                    desc="Text about service"
+                    heading="Tinting & Lash Lifting "
+                    desc="We provide a wide variety of tinting and lash lifting services see service page for more information"
                     />
                     
                     <ServiceType
-                    flaticon="flaticon-spray-bottle"
-                    heading="Massage"
-                    desc="Text about service"
+                    flaticon="flaticon-female-hairs"
+                    heading="Hair Styling"
+                    desc="We are anound for our hair styling skills, out hair styles Iran Grant has been in the indastry for many years."
                     />
                 </div>
             </div>

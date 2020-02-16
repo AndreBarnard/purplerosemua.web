@@ -10,7 +10,7 @@ function TeamSection(props : IProps) {
     <div className="container">    
         <div className=" m-b70">
             <Title heading="Our Team" 
-            paragraph="Some text about our team" />
+            paragraph="Get to meet our team of talented individuals" />
         </div> 
         <div className="section-content">
             <div className="row">
@@ -30,6 +30,17 @@ function TeamSection(props : IProps) {
                     facebookURL="https://www.facebook.com/Make-up-Stars-Cape-Town-338523172898000/"
                     instagramURL="https://www.instagram.com/irina_grant_makeupartist/"
                     webURL="https://irinagrant.co.za/"
+                />
+
+                <TeamMember
+                    portfolioImg={require("../Images/OurTeam/AndreBarnard.jpg")}
+                    name="Andre Barnard"
+                    title="That IT Guy"
+                    facebookURL="https://www.facebook.com/andrebarn/"
+                    instagramURL="https://www.instagram.com/barnard637/"
+                    youtubeURL="https://www.youtube.com/channel/UCCZ8_pfwOPKWCmK8QPaS3jQ?view_as=subscriber"
+                    linkedinURL="https://www.linkedin.com/"
+                    twitterURL="https://www.twitter.com"                    
                 />
              </div>            
         </div>    
