@@ -67,9 +67,9 @@ export default class Header extends React.Component<IAppProps> {
 											</li>
 											<li><a href="">Facepaint & Special Effects</a>
 												<ul className="nav-dropdown">
-												<li><Link to="/portfolio">Facepaint</Link></li>
-												<li><Link to="/portfolio">Special Effects</Link></li>
-												<li><Link to="/portfolio">Grimehouse Music Video</Link></li>
+												<li><Link to="/facepaint">Facepaint</Link></li>
+												<li><Link to="/specaileffects">Special Effects</Link></li>
+												<li><Link to="/grimehousefightclub">Grimehouse Music Video</Link></li>
 												</ul>
 											</li>
 										</ul>
