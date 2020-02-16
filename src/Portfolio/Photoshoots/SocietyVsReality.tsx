@@ -13,61 +13,61 @@ function SocietyVsReality() {
     const heading = "Society Vs Reality";
 
     return <div className="page-content">
-            <Banner img={require('../../Images/portfolio/photoshoots/blacklips/PurplerRose_PhotoShoot_MakeUp_UrbanDecey_BlackLipstick.jpg')} heading={heading} />
+            <Banner img={require('../../Images/portfolio/photoshoots/societyvsreality/PurpleRose_PhotoshootMakeUp_SocietyVsReality_Banner.jpg')} heading={heading} />
             <Breadcrumb heading={heading}/>
                 <div className="section-full p-t80 p-b50">
                     <Pagination 
-                    cat1Heading="Urban Decay Lipstick"
-                    cat2Heading="Closeups"
-                    cat3Heading="Lether Jacket"
-                    cat4Heading="Full Frame"
-                    cat5Heading="Family"/>
+                    cat1Heading="Society"
+                    cat2Heading="Reality"
+                    cat3Heading="Society vs Reality"
+                    cat4Heading=""
+                    cat5Heading=""/>
                     <Gallery>
                         <PorfolioImage 
-                        img={require('../../Images/portfolio/photoshoots/blacklips/PurpleRose_PhotoshootMakeUp_UrbanDecay8.jpg')} 
-                        heading="Urban Decay Vice Lipstick"
+                        img={require('../../Images/portfolio/photoshoots/societyvsreality/PurpleRose_PhotoshootMakeUp_SocietyVsReality_1.jpg')} 
+                        heading="Society"
                         desc=""
                         category="cat-1"/>
                         <PorfolioImage 
-                        img={require('../../Images/portfolio/photoshoots/blacklips/PurpleRose_PhotoshootMakeUp_UrbanDecay1.jpg')} 
-                        heading="Closeup"
+                        img={require('../../Images/portfolio/photoshoots/societyvsreality/PurpleRose_PhotoshootMakeUp_SocietyVsReality_2.jpg')} 
+                        heading="Society"
                         desc=""
-                        category="cat-2"/>
+                        category="cat-1"/>
                         <PorfolioImage 
-                        img={require('../../Images/portfolio/photoshoots/blacklips/PurpleRose_PhotoshootMakeUp_UrbanDecay2.jpg')} 
-                        heading="Closeup"
-                        desc=""
-                        category="cat-2"/>
-                        <PorfolioImage 
-                        img={require('../../Images/portfolio/photoshoots/blacklips/PurpleRose_PhotoshootMakeUp_UrbanDecay3.jpg')} 
-                        heading="Closeup"
-                        desc=""
-                        category="cat-2"/>
-                        <PorfolioImage 
-                        img={require('../../Images/portfolio/photoshoots/blacklips/PurpleRose_PhotoshootMakeUp_UrbanDecay5.jpg')} 
-                        heading="Lether Jacket"
+                        img={require('../../Images/portfolio/photoshoots/societyvsreality/PurpleRose_PhotoshootMakeUp_SocietyVsReality_4.jpg')} 
+                        heading="Society vs Reality"
                         desc=""
                         category="cat-3"/>
                         <PorfolioImage 
-                        img={require('../../Images/portfolio/photoshoots/blacklips/PurpleRose_PhotoshootMakeUp_UrbanDecay6.jpg')} 
-                        heading="Lether Jacke"
+                        img={require('../../Images/portfolio/photoshoots/societyvsreality/PurpleRose_PhotoshootMakeUp_SocietyVsReality_5.jpg')} 
+                        heading="Society vs Reality"
                         desc=""
                         category="cat-3"/>
                         <PorfolioImage 
-                        img={require('../../Images/portfolio/photoshoots/blacklips/PurpleRose_PhotoshootMakeUp_UrbanDecay7.jpg')} 
-                        heading="Full Frame"
+                        img={require('../../Images/portfolio/photoshoots/societyvsreality/PurpleRose_PhotoshootMakeUp_SocietyVsReality_6.jpg')} 
+                        heading="Society vs Reality"
                         desc=""
-                        category="cat-4"/>
+                        category="cat-3"/>
                         <PorfolioImage 
-                        img={require('../../Images/portfolio/photoshoots/blacklips/PurpleRose_PhotoshootMakeUp_UrbanDecay9.jpg')} 
-                        heading="Closeup"
+                        img={require('../../Images/portfolio/photoshoots/societyvsreality/PurpleRose_PhotoshootMakeUp_SocietyVsReality_7.jpg')} 
+                        heading="Society vs Reality"
+                        desc=""
+                        category="cat-3"/>
+                        <PorfolioImage 
+                        img={require('../../Images/portfolio/photoshoots/societyvsreality/PurpleRose_PhotoshootMakeUp_SocietyVsReality_8.jpg')} 
+                        heading="Reality"
                         desc=""
                         category="cat-2"/>
                         <PorfolioImage 
-                        img={require('../../Images/portfolio/photoshoots/blacklips/PurpleRose_PhotoshootMakeUp_UrbanDecay4.jpg')} 
-                        heading="Family"
+                        img={require('../../Images/portfolio/photoshoots/societyvsreality/PurpleRose_PhotoshootMakeUp_SocietyVsReality_9.jpg')} 
+                        heading="Reality"
                         desc=""
-                        category="cat-5"/>
+                        category="cat-2"/>
+                        <PorfolioImage 
+                        img={require('../../Images/portfolio/photoshoots/societyvsreality/PurpleRose_PhotoshootMakeUp_SocietyVsReality_10.jpg')} 
+                        heading="Reality"
+                        desc=""
+                        category="cat-2"/>
                     </Gallery>
                 </div>
             </div>
