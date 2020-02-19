@@ -20,7 +20,7 @@ function Facepaint() {
                     cat1Heading="Skull"
                     cat2Heading="Animal"
                     cat3Heading="Movie Characters"
-                    cat4Heading="Hero's & Villians"
+                    cat4Heading="Hero's & Villains"
                     cat5Heading=""/>
                     <Gallery>
                         <PorfolioImage 
