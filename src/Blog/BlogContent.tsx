@@ -58,7 +58,7 @@ function BlogContent() {
                     </PostSlider> */}
 
                     <PostImage
-                    img={require("../Images/blog/default/thum1.jpg")}
+                    img={require("../Images/blog/dupperwedding/Wedding_Mr_Ms_Dupper_Large.jpg")}
                     postTitle="Dupper Wedding"
                     postDate="4 Jan"
                     postDateYear="2020"
