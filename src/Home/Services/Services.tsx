@@ -50,7 +50,7 @@ function Services() {
                                 
                                 <ServiceTabContent 
                                 id="pricing-tab1-2"
-                                img={require('../../Images/our-services/s1.jpg')}
+                                img={require('../../Images/our-services/makeup/PurpleRose_Makeup_GlowUp.jpg')}
                                 heading="Glow Up"
                                 price="R800"
                                 desc="some text bout the service"
@@ -58,7 +58,7 @@ function Services() {
 
                                 <ServiceTabContent 
                                 id="pricing-tab1-3"
-                                img={require('../../Images/our-services/s1.jpg')}
+                                img={require('../../Images/our-services/makeup/PurpleRose_Makeup_Bridal.jpg')}
                                 heading="Happily Ever After"
                                 price="R1 400"
                                 desc="some text bout the service"

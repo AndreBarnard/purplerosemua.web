@@ -5,7 +5,7 @@ import TeamMember from './TeamMember';
 export interface IProps {
 }
 
-function TeamSection(props : IProps) {
+function TeamSection(props : IProps) {    
     return <div className="section-full p-t80 p-b50 ">
     <div className="container">    
         <div className=" m-b70">
