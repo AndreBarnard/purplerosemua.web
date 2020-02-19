@@ -24,7 +24,7 @@ import Winter from '../Portfolio/Photoshoots/Winter';
 import Skin from '../Portfolio/Photoshoots/Skin';
 import SocietyVsReality from '../Portfolio/Photoshoots/SocietyVsReality';
 import Facepaint from '../Portfolio/SpecialEffects/Facepaint';
-import SpecailEffects from '../Portfolio/SpecialEffects/SpecailEffects';
+import SpecialEffects from '../Portfolio/SpecialEffects/SpecialEffects';
 import GrimeHouseFightClub from '../Portfolio/SpecialEffects/GrimeHouseFightClub';
 
 export interface IAppProps {
@@ -96,8 +96,8 @@ const routes = [
     component: GrimeHouseFightClub
   },
   {
-    path: "/specaileffects",
-    component: SpecailEffects
+    path: "/specialeffects",
+    component: SpecialEffects
   },
   {
     path: "/",
