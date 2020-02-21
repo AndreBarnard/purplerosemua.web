@@ -7,6 +7,7 @@ import {
   Route
 } from "react-router-dom";
 import '../styles/_purplerose.scss'
+import ScrollToTop from '../Components/ScrollToTop'
 
 import Home from '../Home/Home';
 import About from '../About/About';
@@ -111,11 +112,13 @@ export default class Main extends React.Component<IAppProps> {
       <div>
         <Router>
           <Header />
+          <ScrollToTop>
           <Switch>
           {routes.map((route, i) => (
                      <Route path={route.path} component={route.component} />
                   ))} 
           </Switch>
+          </ScrollToTop>
           <Footer />
         </Router>
       </div>
