@@ -29,7 +29,23 @@ function BlogContent() {
             <div className="row">
             
                 <div className="col-md-9">
-                
+
+                    <PostSlider
+                    postTitle="Bridal trial - Dyme Beauty"
+                    postDate="19 Feb"
+                    postDateYear="2020"
+                    author="Jeanerien Barnard"
+                    postText="What a gorgeous bride to be her first bridal trial, thanks to @dymebeautyapp to them we can connect with more gorgeous people like her and a big thanks to @irina_grant_makeupartist the owner of @makeupstars_cpt for letting us use your gorgeous studio. If your interested in becoming a makeup artist and hair stylist check out her page. #dymebeautyapp #dymeartist #bridalmakeup @ Sea Point, Western Cape, South Africa"
+                    facebookURL="https://www.facebook.com/purplerosemua/posts/3553855054689231"
+                    webURL="https://dyme.co.za/"
+                    instagramURL="https://www.instagram.com/p/B81NWooB6iy/"
+                    >
+                        <SliderImage img={require("../Images/blog/dymebridaltrail/PurpleRoseMUA_DymeBridalTrial_1.jpg")} />
+                        <SliderImage img={require("../Images/blog/dymebridaltrail/PurpleRoseMUA_DymeBridalTrial_2.jpg")} />
+                        <SliderImage img={require("../Images/blog/dymebridaltrail/PurpleRoseMUA_DymeBridalTrial_3.jpg")} /> 
+                        <SliderImage img={require("../Images/blog/dymebridaltrail/PurpleRoseMUA_DymeBridalTrial_4.jpg")} /> 
+                    </PostSlider>
+
                     <PostVideo
                     video="https://www.youtube.com/embed/85YlXg9LUYw"
                     videoTitle="Fight Club (Official Video)"
@@ -86,7 +102,7 @@ function BlogContent() {
                 {/* <!-- LEFT PART END --> */}
                 <div className="col-md-3">                
                     <aside className="side-bar">
-                       <Search />
+                       {/* <Search /> */}
                        <RecentPost />                            
                         <WidgetGallery />
                         <Client />

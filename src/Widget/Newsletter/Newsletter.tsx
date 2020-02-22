@@ -12,7 +12,7 @@ function Newsletter(props : IProps) {
         </div>
         
         <div className="newsletter-content">
-            <i>Enter your e-mail and subscribe to our newsletter. Sit amet of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis</i>
+            <i>Enter your e-mail and subscribe to our newsletter.</i>
          </div>
          <div className="m-t20">
             <form role="search" method="post">

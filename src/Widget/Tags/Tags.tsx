@@ -7,18 +7,14 @@ function Tags(props : IProps) {
     return <div className="widget bg-white  widget_tag_cloud">
     <h4 className="widget-title">Tags</h4>
     <div className="tagcloud">
-        <a href="javascript:void(0);">Trouble </a>
-        <a href="javascript:void(0);">Programmers</a>
-        <a href="javascript:void(0);">Never</a>
-        <a href="javascript:void(0);">Tell</a>
-        <a href="javascript:void(0);">Doing</a>
-        <a href="javascript:void(0);">Person</a>
-        <a href="javascript:void(0);">Inventors Tag</a>
-        <a href="javascript:void(0);">Between </a>
-        <a href="javascript:void(0);">Abilities</a>
-        <a href="javascript:void(0);">Fault </a>
-        <a href="javascript:void(0);">Gets </a>
-        <a href="javascript:void(0);">Macho</a>
+        <a href="javascript:void(0);">Bridal </a>
+        <a href="javascript:void(0);">Makeup</a>
+        <a href="javascript:void(0);">Wedding</a>
+        <a href="javascript:void(0);">Music Video</a>
+        <a href="javascript:void(0);">Special Effects</a>
+        <a href="javascript:void(0);">Purple Rose</a>
+        <a href="javascript:void(0);">Dyme</a>
+        <a href="javascript:void(0);">Makeup Stars </a>
     </div>
 </div>   
 }

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import bg7 from '../Images/Background/bg-7.png';
-import ClientLinks from './ClientLinks';
+import ClientLinks from '../Widget/Client/ClientLinks';
 
 export interface IAppProps {
 }
@@ -31,6 +31,10 @@ function ClientSlide() {
             <ClientLinks 
             logo={require('../Images/client-logo/Dodgeball-SA.png')} 
             url="http://www.dodgeballsa.com/wp/" />  
+
+<ClientLinks 
+            logo={require('../Images/client-logo/mojo-hotel-logo.png')} 
+            url="https://www.mojomarket.co.za/" />  
             
             </div>
         </div>
