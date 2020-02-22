@@ -79,7 +79,7 @@ function BlogContent() {
                     postDate="4 Jan"
                     postDateYear="2020"
                     author="Jeanerien Barnard"
-                    postText="Congratulations to Mr. and Ms. Dupper for tying the knot on 4 Jan 2020, we hope you all the best for your new adventures together. #duppermakiti"
+                    postText="Some beautiful sneak peeks from the #duppermakiti wedding 👰 congratulations @amanda.roets1 and Dawie Dupper on your stunning day photographer @pelserphotography makeup 💄 done by me @ Makiti - Venue's/lodge. #duppermakiti"
                     instagramURL="https://www.instagram.com/explore/tags/duppermakiti/"
                     facebookURL="https://www.facebook.com/hashtag/duppermakiti"
                     />
