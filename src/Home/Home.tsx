@@ -17,7 +17,7 @@ export default class Home extends React.Component<IAppProps> {
       <div className="page-content">
         <RevolutionSlider />
         {/* <SpecialOffer /> */}
-        {/* <Services /> */}
+        <Services />
         <Gallery />
         {/* <ContactUs /> */}
         <OurExperts />

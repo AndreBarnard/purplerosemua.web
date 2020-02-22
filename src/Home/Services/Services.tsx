@@ -13,7 +13,7 @@ function Services() {
     <Title 
         titleSpan="Our" 
         titleH2="Services" 
-        paragraph="Some text about Purple Rose services" />
+        paragraph="Purple Rose MUA is experts in the beauty and make-up industry see our wide variety of services" />
         <div className="section-content">
             <div className="owl-carousel our-pricing-carousel owl-btn-vertical-center owl-btn-hover nav nav-tabs">
                 
@@ -21,8 +21,7 @@ function Services() {
                 <SeviceBlock flaticon="flaticon-female-hairs" target="#pricing-item2" title="Hair" />
                 <SeviceBlock flaticon="flaticon-people" target="#pricing-item3" title="Threading & Waxing" />
                 <SeviceBlock flaticon="flaticon-spray-bottle" target="#pricing-item4" title="Tinting & Lash Lifting" />
-                <SeviceBlock flaticon="flaticon-mirror" title="Special Effects" target="#pricing-item5"/>
-                <SeviceBlock flaticon="flaticon-people" title="Makeup Classes" target="#pricing-item6" />              
+                <SeviceBlock flaticon="flaticon-mirror" title="Special Effects" target="#pricing-item5"/>         
             </div>
         </div>
             
@@ -42,10 +41,10 @@ function Services() {
                             <div className="tab-content p-l50">                        
                                 <ServiceTabContent 
                                 id="pricing-tab1-1"
-                                img={require('../../Images/our-services/s1.jpg')}
+                                img={require('../../Images/our-services/makeup/PurpleRose_Makeup_NaturalGlowUp.jpg')}
                                 heading="Natural Glow Up"
                                 price="R700"
-                                desc="some text bout the service"
+                                desc="Natural make-up will enhance your deatures, rather than disquise flaws. It's a simple approach that focuseson a few key areas - skin, eyes and lips and bring out your best in a suble way."
                                 active={true}/>
                                 
                                 <ServiceTabContent 
@@ -53,7 +52,7 @@ function Services() {
                                 img={require('../../Images/our-services/makeup/PurpleRose_Makeup_GlowUp.jpg')}
                                 heading="Glow Up"
                                 price="R800"
-                                desc="some text bout the service"
+                                desc="A glow up make-up look will change your entire aura. By adding some glow, booting your brows and smoky eyes. While toping it with colourfull lips and amping up the volume. Finally setting your look for `just applied` makeup all day and night look."
                                 active={false}/>
 
                                 <ServiceTabContent 
@@ -61,23 +60,23 @@ function Services() {
                                 img={require('../../Images/our-services/makeup/PurpleRose_Makeup_Bridal.jpg')}
                                 heading="Happily Ever After"
                                 price="R1 400"
-                                desc="some text bout the service"
+                                desc="Bridal make-up is usually natural, gorgeous and glowing, with soft defintion on the eyes and a natural lip. It is an essential part pf the wedding planning process to design the prefect look for your special day."
                                 active={false}/>
 
                                 <ServiceTabContent 
                                 id="pricing-tab1-4"
-                                img={require('../../Images/our-services/s1.jpg')}
+                                img={require('../../Images/our-services/makeup/PurpleRose_Makeup_Bridesmaid.jpg')}
                                 heading="Bridesmaid"
                                 price="R800"
-                                desc="some text bout the service"
+                                desc=""
                                 active={false}/>
                                 
                                 <ServiceTabContent 
                                 id="pricing-tab1-5"
-                                img={require('../../Images/our-services/s1.jpg')}
+                                img={require('../../Images/our-services/makeup/PurpleRose_Makeup_Flowergirl.jpeg')}
                                 heading="Flower Girl (under 10)"
                                 price="R120"
-                                desc="some text bout the service"
+                                desc=""
                                 active={false}/>
                              
                             </div>
@@ -98,26 +97,26 @@ function Services() {
                             
                             <ServiceTabContent 
                                 id="pricing-tab2-1"
-                                img={require('../../Images/our-services/s1.jpg')}
+                                img={require('../../Images/our-services/hair/PurpleRose_Hairstyle_Bride.jpg')}
                                 heading="Bride"
                                 price="R1 500"
-                                desc="some text bout the service"
+                                desc=""
                                 active={true}/>
 
                             <ServiceTabContent 
                                 id="pricing-tab2-2"
-                                img={require('../../Images/our-services/s1.jpg')}
+                                img={require('../../Images/our-services/hair/PurpleRose_Hairstyle_BridelTrail.jpg')}
                                 heading="Bride Trail"
                                 price="R750"
-                                desc="some text bout the service"
+                                desc=""
                                 active={false}/>
 
                             <ServiceTabContent 
                                 id="pricing-tab2-3"
-                                img={require('../../Images/our-services/s1.jpg')}
+                                img={require('../../Images/our-services/hair/PurpleRose_Hairstyle_Bridesmaid.jpg')}
                                 heading="Additional hair"
                                 price="R700 (per head)"
-                                desc="some text bout the service"
+                                desc=""
                                 active={false}/>
                             </div>
                         </div>
@@ -139,50 +138,50 @@ function Services() {
                             <div className="tab-content p-l50">
                                 <ServiceTabContent 
                                 id="pricing-tab3-1"
-                                img={require('../../Images/our-services/s1.jpg')}
+                                img={require('../../Images/our-services/waxing/PurpleRose_Waxing_EyeBrows.jpg')}
                                 heading="Brows"
                                 price="R95"
-                                desc="some text bout the service"
+                                desc=""
                                 active={true}/>
 
                                 <ServiceTabContent 
                                 id="pricing-tab3-2"
-                                img={require('../../Images/our-services/s1.jpg')}
+                                img={require('../../Images/our-services/waxing/PurpleRose_Threading_Lips.jpg')}
                                 heading="Lip"
                                 price="R65"
-                                desc="some text bout the service"
+                                desc=""
                                 active={false}/>
 
                                 <ServiceTabContent 
                                 id="pricing-tab3-3"
-                                img={require('../../Images/our-services/s1.jpg')}
+                                img={require('../../Images/our-services/waxing/PurpleRose_Threading_Chin.jpg')}
                                 heading="Chin"
                                 price="R65"
-                                desc="some text bout the service"
+                                desc=""
                                 active={false}/>
 
                                 <ServiceTabContent 
                                 id="pricing-tab3-4"
-                                img={require('../../Images/our-services/s1.jpg')}
+                                img={require('../../Images/our-services/waxing/PurpleRose_Threading_Sides.jpg')}
                                 heading="Sides"
                                 price="R85"
-                                desc="some text bout the service"
+                                desc=""
                                 active={false}/>
 
                                 <ServiceTabContent 
                                 id="pricing-tab3-5"
-                                img={require('../../Images/our-services/s1.jpg')}
+                                img={require('../../Images/our-services/waxing/PurpleRose_Threading_Fullface.jpg')}
                                 heading="Full Face"
                                 price="R250"
-                                desc="some text bout the service"
+                                desc=""
                                 active={false}/>
 
                                 <ServiceTabContent 
                                 id="pricing-tab3-6"
-                                img={require('../../Images/our-services/s1.jpg')}
+                                img={require('../../Images/our-services/waxing/PurpleRose_Waxing_Nostrils.jpg')}
                                 heading="Nostril Waxing"
                                 price="R65"
-                                desc="some text bout the service"
+                                desc=""
                                 active={false}/>
                             </div>
                         </div>
@@ -202,34 +201,34 @@ function Services() {
                             <div className="tab-content p-l50">
                                 <ServiceTabContent 
                                 id="pricing-tab4-1"
-                                img={require('../../Images/our-services/s1.jpg')}
+                                img={require('../../Images/our-services/tinting/PurpleRose_Tinting_Lashtint.jpg')}
                                 heading="Lash Tint"
                                 price="R80"
-                                desc="some text bout the service"
+                                desc=""
                                 active={true}/>
 
                                 <ServiceTabContent 
                                 id="pricing-tab4-2"
-                                img={require('../../Images/our-services/s1.jpg')}
+                                img={require('../../Images/our-services/tinting/PurpleRose_Tinting_TintBrow.jpg')}
                                 heading="Brow Tint"
                                 price="R60"
-                                desc="some text bout the service"
+                                desc=""
                                 active={false}/>
 
                                 <ServiceTabContent 
                                 id="pricing-tab4-3"
-                                img={require('../../Images/our-services/s1.jpg')}
+                                img={require('../../Images/our-services/tinting/PurpleRose_Lifting_Lashlifting.jpg')}
                                 heading="Lash Lifting"
                                 price="R420"
-                                desc="some text bout the service"
+                                desc=""
                                 active={false}/>
 
                                 <ServiceTabContent 
                                 id="pricing-tab4-4"
-                                img={require('../../Images/our-services/s1.jpg')}
+                                img={require('../../Images/our-services/tinting/PurpleRose_Lifting_Lashlifting_tinting.jpg')}
                                 heading="Lash Lifting with Lash Tint"
                                 price="R480"
-                                desc="some text bout the service"
+                                desc=""
                                 active={false}/>
                             </div>
                         </div>
@@ -249,99 +248,32 @@ function Services() {
                             
                             <ServiceTabContent 
                                 id="pricing-tab5-1"
-                                img={require('../../Images/our-services/s1.jpg')}
+                                img={require('../../Images/our-services/specialeffects/PurpleRose_Facepaint_Skull.jpg')}
                                 heading="Facepaint"
                                 price="Ask for quote"
-                                desc="some text bout the service"
+                                desc=""
                                 active={true}/>
 
                             <ServiceTabContent 
                                 id="pricing-tab5-2"
-                                img={require('../../Images/our-services/s1.jpg')}
+                                img={require('../../Images/our-services/specialeffects/PurpleRoseMUA_SpecialEffects_BulletWounds.jpg')}
                                 heading="Bullet wounds"
                                 price="Ask for quote"
-                                desc="some text bout the service"
-                                active={true}/>
+                                desc=""
+                                active={false}/>
 
                             <ServiceTabContent 
                                 id="pricing-tab5-3"
-                                img={require('../../Images/our-services/s1.jpg')}
+                                img={require('../../Images/our-services/specialeffects/PurpleRoseMUA_SpecialEffects_Scarring.jpg')}
                                 heading="Scarring"
                                 price="Ask for quote"
-                                desc="some text bout the service"
-                                active={true}/>
-                                
-                            </div>
-                        </div>
-                    </div>
-            </div>
-            {/* <!-- Makeup Classes--> */}
-            <div id="pricing-item6" className="pricing-tab-content-block tab-pane ">
-                <div className="section-content p-t50">
-                        {/* <!-- TABS DEFAULT NAV LEFT --> */}
-                        <div className="wt-tabs vertical bg-tabs">
-                            <ul className="nav nav-tabs">
-                                <li className="active"><a data-toggle="tab" href="#pricing-tab6-1">Designing your make-up kit</a></li>
-                                <li><a data-toggle="tab" href="#pricing-tab6-2">Blending techniques</a></li>
-                                <li><a data-toggle="tab" href="#pricing-tab6-3">Eyebrow shaping</a></li>
-                                <li><a data-toggle="tab" href="#pricing-tab6-4">Creating illusion with make-up</a></li>
-                                <li><a data-toggle="tab" href="#pricing-tab6-5">Natural and more dramatic applications</a></li>
-                                <li><a data-toggle="tab" href="#pricing-tab6-6">Every Day Woman</a></li>
-                            </ul>
-                            <div className="tab-content p-l50">
-                            
-                            <ServiceTabContent 
-                                id="pricing-tab6-1"
-                                img={require('../../Images/our-services/s1.jpg')}
-                                heading="Designing your make-up kit"
-                                price="Ask for quote"
-                                desc="some text bout the service"
-                                active={true}/>
-                            
-                            <ServiceTabContent 
-                                id="pricing-tab6-2"
-                                img={require('../../Images/our-services/s1.jpg')}
-                                heading="Blending techniques"
-                                price="Ask for quote"
-                                desc="some text bout the service"
-                                active={false}/>
-                            
-                            <ServiceTabContent 
-                                id="pricing-tab6-3"
-                                img={require('../../Images/our-services/s1.jpg')}
-                                heading="Eyebrow shaping"
-                                price="Ask for quote"
-                                desc="some text bout the service"
-                                active={false}/>
-                            
-                            <ServiceTabContent 
-                                id="pricing-tab6-4"
-                                img={require('../../Images/our-services/s1.jpg')}
-                                heading="Creating illusion with make-up"
-                                price="Ask for quote"
-                                desc="some text bout the service"
-                                active={false}/>
-
-                            <ServiceTabContent 
-                                id="pricing-tab6-5"
-                                img={require('../../Images/our-services/s1.jpg')}
-                                heading="Natural and more dramatic applications"
-                                price="Ask for quote"
-                                desc="some text bout the service"
-                                active={false}/>
-
-                            <ServiceTabContent 
-                                id="pricing-tab6-6"
-                                img={require('../../Images/our-services/s1.jpg')}
-                                heading="Every Day Woman"
-                                price="Ask for quote"
-                                desc="some text bout the service"
+                                desc=""
                                 active={false}/>
                                 
                             </div>
                         </div>
                     </div>
-            </div>            
+            </div>         
         </div>
         
     </div>
