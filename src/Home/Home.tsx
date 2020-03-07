@@ -7,6 +7,7 @@ import LatestNews from './LatestNews/LatestNews';
 import ContactUs from './ContactUs';
 import Services from './Services/Services';
 import ClientSlide from './ClientSlide';
+import About from './About';
 
 export interface IAppProps {
 }
@@ -16,10 +17,11 @@ export default class Home extends React.Component<IAppProps> {
     return (
       <div className="page-content">
         <RevolutionSlider />
-        {/* <SpecialOffer /> */}
+        <About />
+        <SpecialOffer />
         <Services />
         <Gallery />
-        {/* <ContactUs /> */}
+        <ContactUs />
         <OurExperts />
         <LatestNews />
         <ClientSlide />

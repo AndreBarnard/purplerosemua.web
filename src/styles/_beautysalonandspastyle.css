@@ -11833,6 +11833,7 @@ a.book-now-btn:active{
 }
 .special-offer-block2 .awesome-counter.text-right{
 	text-align:center;
+	min-height: 650px;
 }
 
 .special-offer-block2 .awesome-counter.text-right .font-60{

@@ -19,9 +19,10 @@ function Services() {
                 
                 <SeviceBlock flaticon="flaticon-eye" title="Makeup" target="#pricing-item1" blockClassName="item active-arrow active" />
                 <SeviceBlock flaticon="flaticon-female-hairs" target="#pricing-item2" title="Hair" />
-                <SeviceBlock flaticon="flaticon-people" target="#pricing-item3" title="Threading & Waxing" />
-                <SeviceBlock flaticon="flaticon-spray-bottle" target="#pricing-item4" title="Tinting & Lash Lifting" />
-                <SeviceBlock flaticon="flaticon-mirror" title="Special Effects" target="#pricing-item5"/>         
+                <SeviceBlock flaticon="flaticon-shaving" target="#pricing-item3" title="Threading & Waxing" />
+                <SeviceBlock flaticon="flaticon-eyelashes" target="#pricing-item4" title="Tinting & Lash Lifting" />
+                <SeviceBlock flaticon="flaticon-brushes" title="Special Effects" target="#pricing-item5"/>      
+                <SeviceBlock flaticon="flaticon-nail" title="Nails" target="#pricing-item6"/>   
             </div>
         </div>
             
@@ -273,7 +274,38 @@ function Services() {
                             </div>
                         </div>
                     </div>
-            </div>         
+            </div> 
+             {/* <!-- Hair --> */}
+             <div id="pricing-item6" className="pricing-tab-content-block tab-pane">
+                <div className="section-content p-t50">
+                        {/* <!-- TABS DEFAULT NAV LEFT --> */}
+                        <div className="wt-tabs vertical bg-tabs">
+                            <ul className="nav nav-tabs">
+                                <li className="active"><a data-toggle="tab" href="#pricing-tab6-1">Acrylic overlay</a></li>
+                                <li><a data-toggle="tab" href="#pricing-tab6-2">Acrylic sculpting</a></li>
+                            </ul>
+                            <div className="tab-content p-l50">
+                            
+                            <ServiceTabContent 
+                                id="pricing-tab6-1"
+                                img={require('../../Images/our-services/nails/PurpleRose_AcrylicSculpting.jpg')}
+                                heading="Acrylic sculpting"
+                                price="R300"
+                                desc=""
+                                active={true}/>
+
+                            <ServiceTabContent 
+                                id="pricing-tab6-2"
+                                img={require('../../Images/our-services/nails/PurpleRose_AcrylicSculpting.jpg')}
+                                heading="Acrylic overlay"
+                                price="R300"
+                                desc=""
+                                active={false}/>
+
+                            </div>
+                        </div>
+                    </div>
+            </div>        
         </div>
         
     </div>

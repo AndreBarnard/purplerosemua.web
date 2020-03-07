@@ -39,7 +39,7 @@ function OurExperts() {
                 <Expert 
                 expertImg={andreImg}
                 expertName="Andre Barnard"
-                expertTitle="That IT Guy"
+                expertTitle="Marketing and Technical Officer"
                 expertFacebookURL="https://www.facebook.com/andrebarn/"
                 experInstagramURL="https://www.instagram.com/barnard637/"
                 experYoutubeURL="https://www.youtube.com/channel/UCCZ8_pfwOPKWCmK8QPaS3jQ?view_as=subscriber"

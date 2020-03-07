@@ -1,5 +1,5 @@
 import * as React from 'react';
-import bg11 from '../Images/Background/bg-11.jpg';
+import bg11 from '../Images/Background/PurpleRose_ContactUs-Backgound.jpg';
 import {Link} from "react-router-dom";
 
 export interface IAppProps {
